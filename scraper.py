@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import datetime
 import csv
+<<<<<<< HEAD
 import re
 
 def initial_setup(filename, choice):
@@ -35,6 +36,7 @@ def scraper(filename, choice, job_links, driver):
     mode = 'a'
   
   # For writing or updating/appending csv
+
   #with open(filename, mode , encoding='UTF-32', newline='') as csvfile:
   with open(filename, mode , newline='') as csvfile: # gobi version
     writer = csv.writer(csvfile)
