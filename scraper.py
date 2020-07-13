@@ -6,12 +6,13 @@ import csv
 import re
 
 def initial_setup(filename, choice):
-  PATH = "./chromedriver"
+  PATH = "./chromedriver" 
   options = webdriver.ChromeOptions()
   options.add_argument("--start-maximized")
 
   URL = "https://stackoverflow.com/jobs?id=406879&r=true&j=Contract"
-  driver = webdriver.Chrome(PATH, chrome_options=options)
+  #driver = webdriver.Chrome(PATH, chrome_options=options)
+  driver = webdriver.Chrome(chrome_options=options) # gobi version
   driver.get(URL)
 
   # Scraping all jobs list
@@ -34,7 +35,8 @@ def scraper(filename, choice, job_links, driver):
     mode = 'a'
   
   # For writing or updating/appending csv
-  with open(filename, mode , encoding='UTF-32', newline='') as csvfile:
+  #with open(filename, mode , encoding='UTF-32', newline='') as csvfile:
+  with open(filename, mode , newline='') as csvfile: # gobi version
     writer = csv.writer(csvfile)
     if mode == 'w':
       writer.writerow(['posted_date', 'technologies', 'job_name', 'company', 'job_type', 'experience_level', 'role', 'industry', 'company_size', 'company_type', 'description'])
@@ -118,8 +120,10 @@ def scraper(filename, choice, job_links, driver):
       print('\nSuccessfully updated', filename + '.')
 
 def check_duplicate(filename):
-  df = pd.read_csv(filename, encoding = 'UTF-32')
+  # df = pd.read_csv(filename, encoding = 'UTF-32')
+  df = pd.read_csv(filename) # gobi version
   df['posted_date'] = pd.to_datetime(df.posted_date, infer_datetime_format = True)
   df.sort_values(by = 'posted_date', ascending = False, inplace = True)
   df = df.drop_duplicates(keep='first')
-  df.to_csv(filename,index = False, encoding = 'UTF-32')
+  # df.to_csv(filename,index = False, encoding = 'UTF-32')
+  df.to_csv(filename,index = False) # gobi version 
