@@ -3,10 +3,9 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import datetime
 import csv
-import re
 
 def initial_setup(filename, choice):
-  PATH = "./chromedriver" 
+  # PATH = "./chromedriver" 
   options = webdriver.ChromeOptions()
   options.add_argument("--start-maximized")
 
@@ -65,7 +64,6 @@ def scraper(filename, choice, job_links, driver):
       basics        = content.find(class_ = 'job-details--about').find_all(class_ = 'mb8')
       company       = soup.find("div", class_ = 'fc-black-700').a.text
       description   = content.find(class_ = 'mb32 fs-body2 fc-medium pr48').find("div").text
-      description   = re.sub(r'\n+', '\n', description).strip()
       actual_date   = content.find(class_ = 'grid fs-body1 fc-black-500 gs8 ai-baseline mb24').text
       actual_date   = actual_date.strip()
 
