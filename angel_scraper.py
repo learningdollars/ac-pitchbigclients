@@ -29,7 +29,7 @@ def initial_setup():
   auto_scroll(driver)
 
   main_page = driver.find_element_by_class_name('content_1ca23')
-  all_jobs = main_page.find_elements_by_class_name('component_4d072')
+  all_jobs  = main_page.find_elements_by_class_name('component_4d072')
   job_links = []
   for job in all_jobs:
     link = job.find_element_by_class_name('component_07bb9').find_element_by_tag_name('a').get_attribute('href')
@@ -68,23 +68,23 @@ def scraper(job_links, driver):
 
     for link  in job_links:
       driver.get(link)
-      detail = driver.find_element_by_class_name('wrapper_06a53')
-      result = detail.get_attribute('innerHTML')
-      soup = BeautifulSoup(result, 'html.parser')
+      detail  = driver.find_element_by_class_name('wrapper_06a53')
+      result  = detail.get_attribute('innerHTML')
+      soup    = BeautifulSoup(result, 'html.parser')
       content = soup.find(class_ = 'content_50e69')
 
       # Initialization
       about_job = []
-      skills = []
-      industry = []
-      job_type = experience = company_size = location = hiring_contact = website = 'Not mentioned'
+      skills    = []
+      industry  = []
+      job_type  = experience = company_size = location = hiring_contact = website = 'Not mentioned'
       
       # Extracting the required data
-      job_name = content.find("h2", class_ = 'header_ec0af').text
-      basics = content.find("div", class_ = 'component_4105f').find_all("div",class_ = 'characteristic_650ae')
-      company_name = content.find("div", class_ = 'name_af83c').find("h1").text
+      job_name      = content.find("h2", class_ = 'header_ec0af').text
+      basics        = content.find("div", class_ = 'component_4105f').find_all("div",class_ = 'characteristic_650ae')
+      company_name  = content.find("div", class_ = 'name_af83c').find("h1").text
       about_company = soup.find("div", class_ = 'component_3298f').find_all("dt")
-      description = content.find("div", class_ = 'description_c90c4').text
+      description   = content.find("div", class_ = 'description_c90c4').text
 
       # Extract company size
       try:
@@ -103,8 +103,8 @@ def scraper(job_links, driver):
 
       # Extract hiring contact
       try:
-        hiring = content.find("div", class_ = 'recruitingContact_82245').find("h4", class_ = 'name_9d036').text
-        hiring_post = content.find("div", class_ = 'recruitingContact_82245').find("span").text
+        hiring         = content.find("div", class_ = 'recruitingContact_82245').find("h4", class_ = 'name_9d036').text
+        hiring_post    = content.find("div", class_ = 'recruitingContact_82245').find("span").text
         hiring_contact = hiring + ', ' + hiring_post
       except:
         pass
