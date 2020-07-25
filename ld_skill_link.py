@@ -1,5 +1,6 @@
 import time
-from selenium import webdriver
+
+from ld_skills import modify
 
 def get_link(skill_list, driver):
   skill_list = [modify(skill) for skill in skill_list]
@@ -26,19 +27,11 @@ def get_link(skill_list, driver):
 
     # To get shareable link
     find_engineers.click()
+    time.sleep(2)
     get_link_button = driver.find_element_by_xpath('//*[@id="shareable_link_btn"]')
     get_link_button.click()
-    time.sleep(5)
-    link = driver.find_element_by_xpath('//*[@id="shareable_link_text"]').text
     time.sleep(2)
+    link = driver.find_element_by_xpath('//*[@id="shareable_link_text"]').text
     return link
   except:
     return 'Not Found'
-
-# To modify all skills into same form
-def modify(skill):
-  if '.' in skill:
-    skill = skill.replace('.', '')
-  if ' ' in skill:
-    skill = skill.replace(' ', '')
-  return skill.lower() 
