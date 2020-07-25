@@ -10,7 +10,7 @@ from ld_skills import get_all_skills
 from ld_skills import modify
 from ld_skill_link import get_link
 
-def initial_setup():
+def weworkremotely_setup():
   PATH = "./chromedriver" 
   options = webdriver.ChromeOptions()
   options.add_argument("--start-maximized")
@@ -94,6 +94,4 @@ def scraper(job_links, driver):
       print('New job record added: ', job_name)
 
     print('\nSuccessfully created a new csv file for indeed.com jobs - ' + filename + '.')  
-
-if __name__ == "__main__":
-    initial_setup()
+    

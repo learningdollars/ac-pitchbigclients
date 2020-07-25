@@ -3,8 +3,9 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import datetime
 import csv
+import os
 
-def initial_setup(filename, choice):
+def stackoverflow_setup(filename, choice):
   # PATH = "./chromedriver" 
   options = webdriver.ChromeOptions()
   options.add_argument("--start-maximized")
@@ -36,7 +37,7 @@ def scraper(filename, choice, job_links, driver):
   # For writing or updating/appending csv
 
   #with open(filename, mode , encoding='UTF-32', newline='') as csvfile:
-  with open(filename, mode , newline='') as csvfile: # gobi version
+  with open(os.path.dirname(os.path.abspath('stackoverflow_jobs')) + '/stackoverflow_jobs/' + filename, mode , newline='') as csvfile: # gobi version
     writer = csv.writer(csvfile)
     if mode == 'w':
       writer.writerow(['posted_date', 'technologies', 'job_name', 'company', 'job_type', 'experience_level', 'role', 'industry', 'company_size', 'company_type', 'description'])

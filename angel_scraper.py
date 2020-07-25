@@ -8,7 +8,7 @@ import os
 
 from ld_skill_link import get_link
 
-def initial_setup():
+def angel_setup():
   PATH = "./chromedriver" 
   options = webdriver.ChromeOptions()
   options.add_argument("--start-maximized")
@@ -148,6 +148,3 @@ def scraper(job_links, driver):
       print('New job record added: ', job_name)
 
     print('\nSuccessfully created a new csv file for angel.co jobs - ' + filename + '.')  
-
-if __name__ == "__main__":
-    initial_setup()
