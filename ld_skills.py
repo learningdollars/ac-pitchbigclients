@@ -22,4 +22,6 @@ def modify(skill):
     skill = skill.replace(' ', '')
   if ',' in skill:
     skill = skill.replace(',', '')
+  if '-' in skill:
+    skill = skill.replace('-', '')
   return skill.lower() 
