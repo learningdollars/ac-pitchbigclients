@@ -5,14 +5,16 @@ import datetime
 import csv
 import os
 
+from ld_skill_link import get_link
+
 def stackoverflow_setup(filename, choice):
-  # PATH = "./chromedriver" 
+  PATH = "./chromedriver" 
   options = webdriver.ChromeOptions()
   options.add_argument("--start-maximized")
 
   URL = "https://stackoverflow.com/jobs?id=406879&r=true&j=Contract"
-  #driver = webdriver.Chrome(PATH, chrome_options=options)
-  driver = webdriver.Chrome(chrome_options=options) # gobi version
+  driver = webdriver.Chrome(PATH, chrome_options=options)
+  # driver = webdriver.Chrome(chrome_options=options) # gobi version
   driver.get(URL)
 
   # Scraping all jobs list
@@ -35,12 +37,11 @@ def scraper(filename, choice, job_links, driver):
     mode = 'a'
   
   # For writing or updating/appending csv
-
   #with open(filename, mode , encoding='UTF-32', newline='') as csvfile:
   with open(os.path.dirname(os.path.abspath('stackoverflow_jobs')) + '/stackoverflow_jobs/' + filename, mode , newline='') as csvfile: # gobi version
     writer = csv.writer(csvfile)
     if mode == 'w':
-      writer.writerow(['posted_date', 'technologies', 'job_name', 'company', 'job_type', 'experience_level', 'role', 'industry', 'company_size', 'company_type', 'description'])
+      writer.writerow(['posted_date', 'technologies', 'job_name', 'company', 'job_type', 'experience_level', 'role', 'industry', 'company_size', 'company_type', 'ld_link', 'description'])
 
     # Scraping
     for link in job_links:
@@ -51,6 +52,7 @@ def scraper(filename, choice, job_links, driver):
       content = soup.find(class_ = 'nav-content')
 
       # Initialization
+      skills        = []
       technologies  = []
       about         = []
       job_type = experience = role = industry = company_size = company_type = 'Not mentioned'
@@ -108,8 +110,14 @@ def scraper(filename, choice, job_links, driver):
           company_size = desc
         else:
           company_type = desc
-      
-      writer.writerow([posted_date, technologies, job_name, company, job_type, experience, role, industry, company_size, company_type, description])
+
+      for skill in technologies:
+        if '-' in skill:
+          skill = skill.replace('-', ' ')
+        skills.append(skill)
+
+      ld_link = get_link(skills, driver)
+      writer.writerow([posted_date, technologies, job_name, company, job_type, experience, role, industry, company_size, company_type, ld_link, description])
       print('New job record added: ', job_name)
 
     check_duplicate(filename)
@@ -125,5 +133,5 @@ def check_duplicate(filename):
   df['posted_date'] = pd.to_datetime(df.posted_date, infer_datetime_format = True)
   df.sort_values(by = 'posted_date', ascending = False, inplace = True)
   df = df.drop_duplicates(keep='first')
-  # df.to_csv(filename,index = False, encoding = 'UTF-32')
-  df.to_csv(filename,index = False) # gobi version 
+  # df.to_csv(os.path.dirname(os.path.abspath('stackoverflow_jobs')) + '/stackoverflow_jobs/' + filename,index = False, encoding = 'UTF-32')
+  df.to_csv(os.path.dirname(os.path.abspath('stackoverflow_jobs')) + '/stackoverflow_jobs/' + filename,index = False) # gobi version 

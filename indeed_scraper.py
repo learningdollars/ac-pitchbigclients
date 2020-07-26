@@ -95,13 +95,12 @@ def scraper(job_links, driver):
           posted_date = posted_date.date()
 
       # To extract skills from description
-      desc_list = description.lower().split()
-      modified_desc_list = []
       skills = []
-      for item in desc_list:
-        modified_desc_list.append(modify(item))
+      all_text = description + job_name
+      desc = modify(all_text)
       for skill in ld_skills:
-        if skill in modified_desc_list:
+        modified = modify(skill).lower()
+        if modified in desc.lower():
           skills.append(skill)
 
       ld_link = get_link(skills, driver)

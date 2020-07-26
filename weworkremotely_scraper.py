@@ -52,14 +52,13 @@ def scraper(job_links, driver):
       soup   = BeautifulSoup(result, 'html.parser')
 
       # Initialization
-      job_type      = []
-      skills        = []
-      modified_list = []
+      job_type  = []
+      skills    = []
       company_location = website = 'Not Mentioned'
       
       # Extracting the required data
       job_name      = soup.find("h1").text.strip()
-      header        = soup.find("div", class_ = 'listing-header-container').text.lower().split()
+      header        = soup.find("div", class_ = 'listing-header-container').text
       posted_date   = soup.find("div", class_ = 'listing-header-container').find("time").attrs.get('datetime')
       posted_date   = parse(posted_date).date()
       basics        = soup.find("div", class_ = 'listing-header-container').find_all("a")
@@ -81,12 +80,11 @@ def scraper(job_links, driver):
       job_type = ', '.join(job_type)
 
       # To extract skills from description
-      desc_list = description.lower().split()
-      desc_list.extend(header)
-      for item in desc_list:
-        modified_list.append(modify(item))
+      all_text = description + header
+      desc = modify(all_text)
       for skill in ld_skills:
-        if skill in modified_list:
+        modified = modify(skill).lower()
+        if modified in desc.lower():
           skills.append(skill)
 
       ld_link = get_link(skills, driver)
@@ -94,4 +92,3 @@ def scraper(job_links, driver):
       print('New job record added: ', job_name)
 
     print('\nSuccessfully created a new csv file for indeed.com jobs - ' + filename + '.')  
-    

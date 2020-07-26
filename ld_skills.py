@@ -9,8 +9,7 @@ def get_all_skills(driver):
   skills = driver.find_elements_by_xpath('/html/body/div[2]/div[3]/div[2]/form/div[1]/div[2]/div/select/option')
   all_skills = []
   for skill in skills:
-    modified = modify(skill.text)
-    all_skills.append(modified)
+    all_skills.append(skill.text)
 
   return sorted(all_skills)
 
@@ -18,10 +17,4 @@ def get_all_skills(driver):
 def modify(skill):
   if '.' in skill:
     skill = skill.replace('.', '')
-  if ' ' in skill:
-    skill = skill.replace(' ', '')
-  if ',' in skill:
-    skill = skill.replace(',', '')
-  if '-' in skill:
-    skill = skill.replace('-', '')
-  return skill.lower() 
+  return skill

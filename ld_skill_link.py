@@ -3,7 +3,7 @@ import time
 from ld_skills import modify
 
 def get_link(skill_list, driver):
-  skill_list = [modify(skill) for skill in skill_list]
+  skill_list = [modify(skill).lower() for skill in skill_list]
 
   URL = 'https://www.learningdollars.com/client/select_engineers/'
   driver.get(URL)  
@@ -21,7 +21,7 @@ def get_link(skill_list, driver):
   try:
     for skill in skills:
       modified = modify(skill.text)
-      if modified in skill_list:
+      if modified.lower() in skill_list:
         skill.click()
         move_right_button.click()
 
