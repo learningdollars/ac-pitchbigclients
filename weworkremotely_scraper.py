@@ -16,8 +16,8 @@ def weworkremotely_setup():
   options.add_argument("--start-maximized")
 
   URL = "https://weworkremotely.com/categories/remote-programming-jobs"
-  driver = webdriver.Chrome(PATH, chrome_options=options)
-  # driver = webdriver.Chrome(chrome_options=options) # gobi version
+  # driver = webdriver.Chrome(PATH, chrome_options=options) # anisha version
+  driver = webdriver.Chrome(chrome_options=options) # gobi version
   driver.get(URL)
 
   job_container = driver.find_element_by_class_name('jobs-container')
@@ -41,7 +41,8 @@ def scraper(job_links, driver):
   today = datetime.datetime.now()
   filename = 'weworkremotely_jobs_' + str(today.day) + '_' + strftime("%b") + '_' + str(today.year) + '_' + str(today.hour) + '_' + str(today.minute) + '.csv'
 
-  with open(os.path.dirname(os.path.abspath('weworkremotely_jobs')) + '/weworkremotely_jobs/' + filename, 'w', encoding='UTF-16', newline='') as csvfile:
+  with open(os.path.dirname(os.path.abspath('weworkremotely_jobs')) + '/weworkremotely_jobs/' + filename, 'w', newline='') as csvfile: # gobi version 
+  #with open(os.path.dirname(os.path.abspath('weworkremotely_jobs')) + '/weworkremotely_jobs/' + filename, 'w', encoding='UTF-16', newline='') as csvfile: # anisha version 
     writer = csv.writer(csvfile)
     writer.writerow(['posted_date', 'skills', 'job_name', 'job_type', 'company_name', 'company_location', 'website', 'description', 'ld_link'])
 

@@ -14,18 +14,19 @@ def angel_setup():
   options.add_argument("--start-maximized")
 
   URL = "https://angel.co/jobs"
-  driver = webdriver.Chrome(PATH, chrome_options=options)
-  # driver = webdriver.Chrome(chrome_options=options) # gobi version
+  # driver = webdriver.Chrome(PATH, chrome_options=options) # anisha version
+  driver = webdriver.Chrome(chrome_options=options) # gobi version
   driver.get(URL)
 
   driver.find_element_by_link_text('Log In').click()
   try:
     login(driver)
-    time.sleep(30)
+    time.sleep(60)
   except:
-    time.sleep(30)
+    time.sleep(60)
     login(driver)
 
+  time.sleep(10)
   auto_scroll(driver)
 
   main_page = driver.find_element_by_class_name('content_1ca23')
@@ -39,8 +40,8 @@ def angel_setup():
   driver.close()
 
 def login(driver):
-  driver.find_element_by_id('user_email').send_keys('your_email')
-  driver.find_element_by_id('user_password').send_keys('your_password')
+  #driver.find_element_by_id('user_email').send_keys('your_email')
+  #driver.find_element_by_id('user_password').send_keys('your_password')
   driver.find_element_by_css_selector("input[name='commit']").click()
 
 def auto_scroll(driver):
@@ -62,7 +63,8 @@ def scraper(job_links, driver):
   today = datetime.datetime.now()
   filename = 'angel_co_jobs_' + str(today.day) + '_' + strftime("%b") + '_' + str(today.year) + '_' + str(today.hour) + '_' + str(today.minute) + '.csv'
 
-  with open(os.path.dirname(os.path.abspath('angel_co_jobs')) + '/angel_co_jobs/' + filename, 'w', encoding='UTF-16', newline='') as csvfile:
+  #with open(os.path.dirname(os.path.abspath('angel_co_jobs')) + '/angel_co_jobs/' + filename, 'w', encoding='UTF-16', newline='') as csvfile: # anisha version
+  with open(os.path.dirname(os.path.abspath('angel_co_jobs')) + '/angel_co_jobs/' + filename, 'w', newline='') as csvfile: # gobi version
     writer = csv.writer(csvfile)
     writer.writerow(['skills', 'job_name', 'job_type', 'experience', 'company_name', 'industry', 'company_size', 'location', 'hiring_contact', 'website', 'description', 'ld_link'])
 

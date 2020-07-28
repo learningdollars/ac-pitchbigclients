@@ -16,8 +16,8 @@ def indeed_setup():
   options.add_argument("--start-maximized")
 
   URL = "https://www.indeed.com/jobs?q=software+developer&l=Remote&rbl=Remote&jlid=aaa2b906602aa8f5&jt=contract"
-  driver = webdriver.Chrome(PATH, chrome_options=options)
-  # driver = webdriver.Chrome(chrome_options=options) # gobi version
+  #driver = webdriver.Chrome(PATH, chrome_options=options) # anisha version
+  driver = webdriver.Chrome(chrome_options=options) # gobi version
   driver.get(URL)
 
   job_links = []
@@ -51,7 +51,8 @@ def scraper(job_links, driver):
   today = datetime.datetime.now()
   filename = 'indeed_jobs_' + str(today.day) + '_' + strftime("%b") + '_' + str(today.year) + '_' + str(today.hour) + '_' + str(today.minute) + '.csv'
 
-  with open(os.path.dirname(os.path.abspath('indeed_jobs')) + '/indeed_jobs/' + filename, 'w', encoding='UTF-16', newline='') as csvfile:
+  #with open(os.path.dirname(os.path.abspath('indeed_jobs')) + '/indeed_jobs/' + filename, 'w', encoding='UTF-16', newline='') as csvfile: # anisha version
+  with open(os.path.dirname(os.path.abspath('indeed_jobs')) + '/indeed_jobs/' + filename, 'w', newline='') as csvfile: # gobi version
     writer = csv.writer(csvfile)
     writer.writerow(['posted_date', 'skills', 'job_name', 'job_type', 'company_name', 'description', 'ld_link'])
 

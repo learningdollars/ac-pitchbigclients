@@ -1,0 +1,126 @@
+posted_date,technologies,job_name,company,job_type,experience_level,role,industry,company_size,company_type,ld_link,description
+2020-07-26,"['.net', 'sql-server', 'c#', 'javascript', 'elasticsearch']",Full Stack .NET/MSSQL/JS Developer,MicroGSD,Contract,"Mid-Level, Senior, Lead",Full Stack Developer,"Consulting, Manufacturing, Software Development",1–10 people,Private,https://www.learningdollars.com/client/select_engineers/?crid=2214,"
+Technologies
+
+.NET
+VB.NET
+C#
+.NET Core
+ASP.NET
+MSSQL - SQL Server
+React
+Javascript
+Node.js
+ElasticSearch
+
+Job description
+We are looking for a software engineer with a “find or make a way” attitude who can initialize and manage projects. We expect the role to begin as an individual contributor and grow into a nearly autonomous role. This opportunity is for someone excited for autonomy, ownership, flexible working hours and responsibility. This is a remote position available as contract or employee. Workers must be authorized to work in the US (No Non US Applicants Please). 
+Our stack
+
+We service several different applications. All are written in some form of .NET with various different front end technologies (React, DNN (legacy), ASP.NET Forms, MVC).
+All of our applications utilize Microsoft SQL Server. Some use MAS500/Sage 500 ERP.
+All applications live in Amazon Web Services (AWS).
+Our latest applications are written in .NET Core & React.
+We are looking for talent who can contribute to all of our applications, new or legacy.
+Recommended development machine utilizes modern processors and SSDs with about 2 TB of storage and several monitors. Windows 10 with Visual Studio 2019, Visual Studio Code and MSSQL.
+
+Build something challenging and valuable
+You will be challenged to accomplish a variety of different goals depending on the project. Explore the limits of your intuition and resourcefulness while interacting with legacy systems and poorly programmed integrations. Some typical work days you can expect:
+
+Interacting with teams of non-engineers to establish project requirements and expected outcomes, with deep consideration for future impacts.
+Writing new internal or ecommerce web applications
+Refining legacy applications to save labor hours
+Optimizing legacy applications
+Optimizing MSSQL
+Automation to save labor hours
+Implementing AB tests on ecommerce websites
+
+See if you fit our requirements
+We are looking for someone with the following attributes
+
+3+ years experience working in back-end applications
+2+ years experience working with front-end applications
+Deep familiarity with .NET/ASP.NET/MSSQL
+Bonus for familiarity with ReactJS/Javascript/.NET Core/MVC
+Ability to document new and legacy systems where documentation is lacking.
+Ability to pass a background check (if applicable)
+Proven dedication to creating maintainable and functional systems
+
+Apply for job
+Please provide the following:
+
+Resume
+Link to Stack Overflow profile
+Link to GitHub profile
+
+Also See
+
+https://www.microgsd.com/job.html
+ "
+2020-07-21,"['x86', 'arm', 'linux', 'c', 'c++']",Paid Research Study for Real-Time Application Developers,User Research International,Contract,"Mid-Level, Senior, Lead",Embedded Developer,"AI Research, Market Research, Surveying",11–50 people,Private,https://www.learningdollars.com/client/select_engineers/?crid=2215,"
+User Research International is a research company based out of Redmond, Washington. Working with some of the biggest companies in the industry, we aim to improve your experience via paid research studies. Whether it be the latest video game or productivity tools, we value your feedback and experience. We are currently conducting a research study called the Real-Time Development Study. We are looking for currently employed Developers who practice Real-Time Application development. This study is a one-time remote study via an online meeting. We’re offering $375 for participation in this study. Session lengths are 150 Minutes. These studies provide a platform for our researchers to receive feedback for existing or upcoming products or software. We have included the survey link for the study below. Taking the survey will help determine if you fit the profile requirements. Completing this survey does not guarantee you will be selected to participate.  If it's a match, we'll reach out with a formal confirmation and any additional details you may need.
+I have summarized the study details below. In order to be considered, you must take the survey below. Thank you!
+Study: Real-Time Development Study
+Gratuity: $375
+Session Length: 150 Minutes
+Location: Remote
+Dates: Available dates are located within the survey
+Survey: Real-Time Development Study "
+2020-06-30,"['django', 'python', 'javascript', 'vue.js']",Full Stack Web Developer,"Art & Logic, Inc.",Contract,"Mid-Level, Senior, Lead","Frontend Developer, Full Stack Developer",Software Development,51–200 people,Private,https://www.learningdollars.com/client/select_engineers/?crid=1590,"
+Art+Logic is looking for Full Stack Web Developers to work with us on interesting custom software projects. We’ve been around since 1991, and we’re still going strong. 
+Our ideal developers thrive in the environment of variety and challenge that is inherent to custom software development, working with us in a long-term relationship over many projects for numerous clients.
+Since we do custom software development, the skills and needs for each project can vary widely. This goes beyond just the languages we use, to the industries and problem domains we work in. We look for generalists; most importantly those who are excited to learn and take on new challenges. You can expect to grow both in your strength and your versatility when working here. We want to help you do so.
+We work remotely all over the United States and Canada. We expect you to be able to work well on your own and comfortably with teams. You won’t have someone looking over your shoulder so you'll need to be communicative and reliable, and hold yourself accountable. We depend on each other.
+Art+Logic is run by humans, who work and create using technology. Things can go wrong and we need to respond to the unexpected by being kind, considerate, fair, flexible, and calm. We treat our clients and peers as respectfully as we would like to be treated.
+Here’s an example of some projects we’ve worked on recently, so you can better understand the wide range of projects and challenges we undertake:
+
+Implementing a Django-based DoD CAC card login
+Writing a data model layer using SQLAlchemy to provide an object-oriented view of a legacy relational database schema. This model layer provides all business rules and data integrity using advanced python3 features. This data model in turn serves a REST API (python-pyramid) consumed by an advanced single-page web application written with Marionette (Backbone)
+Created Windows tablet application to communicate with client's modbus hardware and upload data to Python/Django/Vue webapp for analysis and display
+
+What we want from you: (aka: skills)
+We currently have a high demand for Python, specifically Django, and JavaScript web framework experience. 
+However, more important than that, we are looking for people who are curious and looking for opportunities to learn. People who like learning and creating on their own. Those who are able to drive themselves or even lead others when completing projects. Developers who are able to organize and express their ideas. Communication is paramount here.
+Relationship Details:
+We are looking for Contractors (1099) for long term open-ended relationships. Work hours are flexible; requiring reasonable overlap with normal working hours to support team communications, and not just nights and weekends. Our rates range from $35-$55/hour. We are ONLY looking for people in the United States and Canada.
+We want you to enjoy working for us, and to be able to have a life outside of work. Since you're not commuting you can embrace the freedom of working from where you enjoy living, and use the saved time for your personal life and relationships. We don’t ask our developers to work consistently over 40 hours/week. 
+It’s important to us in the hiring process that we allow developers to demonstrate their abilities by actually developing something, because a list of previous employers or educational background aren’t always indicators of what someone can do. All applicants are asked to submit a solution to a programming challenge that emulates a task we might assign on a project.  "
+2020-07-23,"['javascript', 'css', 'html', 'kubernetes', 'docker']",Software Development Coach,Vail Systems Inc.,Contract,Mid-Level,DevOps,"PaaS, Telecommunications, VoIP",51–200 people,Private,https://www.learningdollars.com/client/select_engineers/?crid=2216,"
+Software Development Coach – Seneca Foundation (Contract/Contract to Hire – Remote)
+Vail Systems is seeking a Software Development Coach that will assist onboarding for the Seneca Foundation’s inaugural cohort of software development interns. The training material will cover fundamentals that will be applicable in any software setting and additionally will train on information regarding how Vail uses these technologies to deliver software. Professionalism will also be included in the training program.
+The Software Development Coach will develop a curriculum to teach participants of the Seneca Foundation (http://www.senecafoundation.org) intern program the basics of software development and DevOps, and how this foundation contributes to the bigger picture of what a software developer can do. The inaugural cohort of this program will be starting in September 2020. 
+This curriculum will include:
+
+      Emphasis on why 
+      Emphasis on fundamentals 
+      Hands-on and discussion-based learning 
+      Differentiated instruction
+      Professionalism 
+      Collaboration 
+
+What we need to see from you:
+
+A Bachelor’s degree in Computer Science/Engineering or a related field or equivalent experience
+2-4 years of experience in software development and technology training and instruction
+Experience with curriculum development
+
+Vail’s processes and tools that will include:
+
+      Git 
+      Jira 
+      Confluence
+
+Technologies will include:
+
+      Web – HTML/CSS and JavaScript
+      DevOps – Docker and Kubernetes (K8s)
+ "
+2020-07-27,"['azure', 'azure-monitoring', 'apache-kafka']",Paid Research Study for Azure Cloud Users,User Research International,Contract,"Mid-Level, Senior, Lead",Not mentioned,"AI Research, Market Research, Surveying",11–50 people,Private,https://www.learningdollars.com/client/select_engineers/?crid=2217,"
+User Research International is a research company based out of Redmond, Washington. Working with some of the biggest companies in the industry, we aim to improve your experience via paid research studies. Whether it be the latest video game or productivity tools, we value your feedback and experience. We are currently conducting a research study called The Event Streaming Platform Study. We are looking for currently employed Developers\IT Pros who are currently using Azure for work. This study is a one-time Remote Study via an online meeting. We’re offering $100 for participation in this study. Session lengths are 1 hour. These studies provide a platform for our researchers to receive feedback for an existing or upcoming products or software. We have included the survey link for the study below. Taking the survey will help determine if you fit the profile requirements. Completing this survey does not guarantee you will be selected to participate.  If it's a match, we'll reach out with a formal confirmation and any additional details you may need.
+I have summarized the study details below. In order to be considered, you must take the survey below. Thank you!
+Study: The Event Streaming Platform Study
+Gratuity: $100
+Session Length: 60 mins
+Location: Remote
+Dates: Available dates are located within the survey (additional session times may be added)
+Survey: The Event Streaming Platform Qualification Survey "

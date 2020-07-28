@@ -13,8 +13,8 @@ def stackoverflow_setup(filename, choice):
   options.add_argument("--start-maximized")
 
   URL = "https://stackoverflow.com/jobs?id=406879&r=true&j=Contract"
-  driver = webdriver.Chrome(PATH, chrome_options=options)
-  # driver = webdriver.Chrome(chrome_options=options) # gobi version
+  # driver = webdriver.Chrome(PATH, chrome_options=options) # anisha version
+  driver = webdriver.Chrome(chrome_options=options) # gobi version
   driver.get(URL)
 
   # Scraping all jobs list
@@ -37,12 +37,13 @@ def scraper(filename, choice, job_links, driver):
     mode = 'a'
   
   # For writing or updating/appending csv
-  #with open(filename, mode , encoding='UTF-32', newline='') as csvfile:
+  #with open(filename, mode , encoding='UTF-32', newline='') as csvfile: # anisha version
   with open(os.path.dirname(os.path.abspath('stackoverflow_jobs')) + '/stackoverflow_jobs/' + filename, mode , newline='') as csvfile: # gobi version
     writer = csv.writer(csvfile)
     if mode == 'w':
       writer.writerow(['posted_date', 'technologies', 'job_name', 'company', 'job_type', 'experience_level', 'role', 'industry', 'company_size', 'company_type', 'ld_link', 'description'])
 
+    num_records_got = 0 # tmp for debug
     # Scraping
     for link in job_links:
       driver.get('https://stackoverflow.com' + link)
@@ -119,8 +120,12 @@ def scraper(filename, choice, job_links, driver):
       ld_link = get_link(skills, driver)
       writer.writerow([posted_date, technologies, job_name, company, job_type, experience, role, industry, company_size, company_type, ld_link, description])
       print('New job record added: ', job_name)
+      
+      num_records_got += 1
+      if num_records_got > 4:
+        break #tmp for debugging
 
-    check_duplicate(filename)
+    # check_duplicate(filename) # no longer need to check for duplicates since we only need to create a new csv each time now (I commented this out since I got an error - not a priority to solve right now since we will only be using option 1 to create a new csv)
 
     if (mode == 'w'):
       print('\nSuccessfully created new csv file - ' + filename + '.')
