@@ -11,7 +11,7 @@ from ld_skills import modify
 from ld_skill_link import get_link
 
 def indeed_setup():
-  PATH = "./chromedriver" 
+  # PATH = "./chromedriver" 
   options = webdriver.ChromeOptions()
   options.add_argument("--start-maximized")
 

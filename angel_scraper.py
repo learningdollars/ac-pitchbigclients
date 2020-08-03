@@ -9,7 +9,7 @@ import os
 from ld_skill_link import get_link
 
 def angel_setup():
-  PATH = "./chromedriver" 
+  # PATH = "./chromedriver" 
   options = webdriver.ChromeOptions()
   options.add_argument("--start-maximized")
 
@@ -18,15 +18,9 @@ def angel_setup():
   driver = webdriver.Chrome(chrome_options=options) # gobi version
   driver.get(URL)
 
-  driver.find_element_by_link_text('Log In').click()
-  try:
-    login(driver)
-    time.sleep(60)
-  except:
-    time.sleep(60)
-    login(driver)
-
-  time.sleep(10)
+  time.sleep(80)
+  
+  role_selector(driver)
   auto_scroll(driver)
 
   main_page = driver.find_element_by_class_name('content_1ca23')
@@ -39,11 +33,70 @@ def angel_setup():
   scraper(job_links, driver)
   driver.close()
 
-def login(driver):
-  #driver.find_element_by_id('user_email').send_keys('your_email')
-  #driver.find_element_by_id('user_password').send_keys('your_password')
-  driver.find_element_by_css_selector("input[name='commit']").click()
 
+def role_selector(driver):
+  # To click filter button
+  driver.find_element_by_css_selector("button[data-test='SearchBar-ToggleFilterControlPanelButton']").click()
+  modal = driver.find_element_by_class_name('ReactModal__Content')
+
+  # Remove all the previously selected job details
+  try:
+    job_filter = modal.find_element_by_css_selector("div[class='activeFilterSummary_d8b4c component_88892']").find_elements_by_css_selector("button[class='clear_6a97f']")
+    for remove in job_filter:
+      remove.click()
+  except:
+    pass
+  
+  # Remove all the previously selected roles
+  role_selector = modal.find_element_by_css_selector("div[data-test='RoleSelectWrapper']")
+  role_selector.click()
+  try:
+    remove_selected_job = role_selector.find_elements_by_css_selector("div[class='css-1alnv5e select__multi-value__remove']")
+    for remove in remove_selected_job:
+      remove.click()
+  except:
+    pass
+
+  # Check all the roles in the provided list and select the required roles only
+  required_roles = ['Software Engineer', 'Mobile Developer', 'Frontend Engineer', 'Backend Engineer', 'Full-Stack Engineer', 'Data Scientist']
+  while True:
+    try:
+      role_selector.click()
+      unfocused_roles = modal.find_element_by_css_selector("div[class='css-kj6f9i-menu select__menu']").find_elements_by_css_selector("div[class='css-fk865s-option select__option']")
+      focused_roles = modal.find_element_by_css_selector("div[class='css-kj6f9i-menu select__menu']").find_elements_by_css_selector("div[class='css-dpec0i-option select__option select__option--is-focused']")
+      roles = unfocused_roles + focused_roles
+      for role in roles:
+        if role.text in required_roles:
+          role.click()
+          break
+    except:
+      break
+    
+  # Select the remote only option
+  modal.find_element_by_class_name('component_fc753').find_element_by_tag_name('button').click()
+  remote_options = modal.find_element_by_class_name('menu_e1bfe').find_elements_by_class_name('option_31ad6')
+  for option in remote_options:
+    try: 
+      option.find_element_by_id('Only remote jobs')
+      option.click()
+    except:
+      continue
+  modal.find_element_by_class_name('component_09e2b').click()
+  modal.find_element_by_class_name('component_fc753').find_element_by_tag_name('button').click()
+  time.sleep(1)
+
+  # Select the contract option from job-types
+  checkboxes = modal.find_elements_by_class_name('checkbox_e5310')
+  for check in checkboxes:
+    if check.text == 'Contract':
+      scroll_point = modal.find_element_by_class_name('grid_2f21a')
+      driver.execute_script('arguments[0].scrollIntoView();', scroll_point)
+      contract_label = check.find_element_by_class_name('styles_label__N5EIG')
+      contract_label.click()
+  
+  # To click on the view result button 
+  modal.find_element_by_css_selector("button[data-test='SearchBar-ViewResultsButton']").click()
+  
 def auto_scroll(driver):
   # Get current scroll height
   last_height = driver.execute_script("return document.body.scrollHeight")
