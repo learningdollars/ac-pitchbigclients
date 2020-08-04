@@ -8,7 +8,7 @@ import os
 from ld_skill_link import get_link
 
 def stackoverflow_setup(filename, choice):
-  PATH = "./chromedriver" 
+  # PATH = "./chromedriver" 
   options = webdriver.ChromeOptions()
   options.add_argument("--start-maximized")
 
@@ -37,7 +37,7 @@ def scraper(filename, choice, job_links, driver):
     mode = 'a'
   
   # For writing or updating/appending csv
-  #with open(filename, mode , encoding='UTF-32', newline='') as csvfile: # anisha version
+  # with open(os.path.dirname(os.path.abspath('stackoverflow_jobs')) + '/stackoverflow_jobs/' + filename, mode , encoding='UTF-32', newline='') as csvfile: # anisha version
   with open(os.path.dirname(os.path.abspath('stackoverflow_jobs')) + '/stackoverflow_jobs/' + filename, mode , newline='') as csvfile: # gobi version
     writer = csv.writer(csvfile)
     if mode == 'w':
@@ -128,7 +128,7 @@ def scraper(filename, choice, job_links, driver):
     # check_duplicate(filename) # no longer need to check for duplicates since we only need to create a new csv each time now (I commented this out since I got an error - not a priority to solve right now since we will only be using option 1 to create a new csv)
 
     if (mode == 'w'):
-      print('\nSuccessfully created new csv file - ' + filename + '.')
+      print('\nSuccessfully created new csv file for stackoverflow.com jobs - ' + filename + '.')
     else:
       print('\nSuccessfully updated', filename + '.')
 

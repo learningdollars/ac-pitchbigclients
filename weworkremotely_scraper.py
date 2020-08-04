@@ -92,4 +92,4 @@ def scraper(job_links, driver):
       writer.writerow([posted_date, skills, job_name, job_type, company_name, company_location, website, description, ld_link])
       print('New job record added: ', job_name)
 
-    print('\nSuccessfully created a new csv file for indeed.com jobs - ' + filename + '.')  
+    print('\nSuccessfully created a new csv file for weworkremotely.com jobs - ' + filename + '.')  

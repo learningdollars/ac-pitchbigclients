@@ -2,6 +2,7 @@ from stackoverflow_scraper import stackoverflow_setup
 from time import strftime
 import datetime
 import glob
+import os
 
 def stackoverflow_main():
   print('Enter 1 to create a new csv file.')
@@ -28,12 +29,12 @@ def stackoverflow_main():
     stackoverflow_setup(filename, choice)
   
   elif (choice == 2):
-    csv_files = list(glob.glob("*.csv"))
+    csv_files = list(glob.glob(os.path.dirname(os.path.abspath('stackoverflow_jobs')) + '/stackoverflow_jobs/' + "*.csv"))
     if (len(csv_files) > 0):
       count = 1
       print('\nChoose a csv file from the options: ')
       for csv in csv_files:
-        print(str(count) + '. ' + csv)
+        print(str(count) + '. ' + os.path.basename(csv))
         count += 1
       print('Press c to cancel. \n')
       while True:
@@ -54,7 +55,7 @@ def stackoverflow_main():
         except:
           print('Invalid choice. Please enter a valid choice. \n')
       if (file_choice != 'c'):
-        filename = csv_files[file_choice-1]
+        filename = os.path.basename(csv_files[file_choice-1])
         stackoverflow_setup(filename, choice)
       else:
         print('Cancelled.')
