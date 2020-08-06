@@ -46,7 +46,7 @@ def role_selector(driver):
       remove.click()
   except:
     pass
-  
+
   # Remove all the previously selected roles
   role_selector = modal.find_element_by_css_selector("div[data-test='RoleSelectWrapper']")
   role_selector.click()
@@ -89,8 +89,9 @@ def role_selector(driver):
   checkboxes = modal.find_elements_by_class_name('checkbox_e5310')
   for check in checkboxes:
     if check.text == 'Contract':
-      scroll_point = modal.find_element_by_class_name('grid_2f21a')
+      scroll_point = modal.find_elements_by_class_name('grid_2f21a')[2] # may need to change this to 1,2, or 3
       driver.execute_script('arguments[0].scrollIntoView();', scroll_point)
+      time.sleep(2)
       contract_label = check.find_element_by_class_name('styles_label__N5EIG')
       contract_label.click()
   
@@ -121,85 +122,92 @@ def scraper(job_links, driver):
     writer = csv.writer(csvfile)
     writer.writerow(['skills', 'job_name', 'job_type', 'experience', 'company_name', 'industry', 'company_size', 'location', 'hiring_contact', 'website', 'description', 'ld_link'])
 
+    #tmp_limit = 0
     for link  in job_links:
-      driver.get(link)
-      detail  = driver.find_element_by_class_name('wrapper_06a53')
-      result  = detail.get_attribute('innerHTML')
-      soup    = BeautifulSoup(result, 'html.parser')
-      content = soup.find(class_ = 'content_50e69')
+      try:
+        driver.get(link)
+        detail  = driver.find_element_by_class_name('wrapper_06a53')
+        result  = detail.get_attribute('innerHTML')
+        soup    = BeautifulSoup(result, 'html.parser')
+        content = soup.find(class_ = 'content_50e69')
 
-      # Initialization
-      about_job = []
-      skills    = []
-      industry  = []
-      job_type  = experience = company_size = location = hiring_contact = website = 'Not mentioned'
+        # Initialization
+        about_job = []
+        skills    = []
+        industry  = []
+        job_type  = experience = company_size = location = hiring_contact = website = 'Not mentioned'
+        
+        # Extracting the required data
+        job_name      = content.find("h2", class_ = 'header_ec0af').text
+        basics        = content.find("div", class_ = 'component_4105f').find_all("div",class_ = 'characteristic_650ae')
+        company_name  = content.find("div", class_ = 'name_af83c').find("h1").text
+        about_company = soup.find("div", class_ = 'component_3298f').find_all("dt")
+        description   = content.find("div", class_ = 'description_c90c4').text
+
+        # Extract company size
+        try:
+          for about in about_company:
+            extracts = about.text
+            if(" people" in extracts):
+              company_size = extracts
+        except:
+          pass
+        
+        # Extract website link
+        try:
+          website = soup.find("li", class_ = 'websiteLink_b71b4').find("a").get('href')
+        except:
+          pass
+
+        # Extract hiring contact
+        try:
+          hiring         = content.find("div", class_ = 'recruitingContact_82245').find("h4", class_ = 'name_9d036').text
+          hiring_post    = content.find("div", class_ = 'recruitingContact_82245').find("span").text
+          hiring_contact = hiring + ', ' + hiring_post
+        except:
+          pass
       
-      # Extracting the required data
-      job_name      = content.find("h2", class_ = 'header_ec0af').text
-      basics        = content.find("div", class_ = 'component_4105f').find_all("div",class_ = 'characteristic_650ae')
-      company_name  = content.find("div", class_ = 'name_af83c').find("h1").text
-      about_company = soup.find("div", class_ = 'component_3298f').find_all("dt")
-      description   = content.find("div", class_ = 'description_c90c4').text
+        # Extract industry details
+        try:
+          industry_info = soup.find("div", class_ = 'component_3298f').find("dt", class_ = 'tags_70e20').find_all("a")
+          for info in industry_info:
+            industry.append(info.text)
+        except:
+          pass
 
-      # Extract company size
-      try:
-        for about in about_company:
-          extracts = about.text
-          if(" people" in extracts):
-            company_size = extracts
-      except:
-        pass
-      
-      # Extract website link
-      try:
-        website = soup.find("li", class_ = 'websiteLink_b71b4').find("a").get('href')
-      except:
-        pass
+        for basic in basics:
+          title = basic.find("dt").text
+          # Extract skills 
+          if (title == 'Skills'):
+            all_skill = basic.find_all("a")
+            for skill in all_skill:
+              one_skill = skill.text
+              skills.append(one_skill)
+          else:
+            desc = basic.find("dd").text
+          pair = [title, desc]
+          about_job.append(pair)
+        
+        # Extract basic details about job
+        for info in about_job:
+          title = info[0]
+          desc = info[-1]
+          if (title == 'Location'):
+            location = desc
+          elif (title == 'Job type'):
+            job_type = desc
+          elif (title == 'Experience'):
+            experience = desc
+          else:
+            continue
 
-      # Extract hiring contact
-      try:
-        hiring         = content.find("div", class_ = 'recruitingContact_82245').find("h4", class_ = 'name_9d036').text
-        hiring_post    = content.find("div", class_ = 'recruitingContact_82245').find("span").text
-        hiring_contact = hiring + ', ' + hiring_post
+        ld_link = get_link(skills, driver)
+        writer.writerow([skills, job_name, job_type, experience, company_name, industry, company_size, location, hiring_contact, website, description, ld_link])
+        print('New job record added: ', job_name)
       except:
-        pass
-    
-      # Extract industry details
-      try:
-        industry_info = soup.find("div", class_ = 'component_3298f').find("dt", class_ = 'tags_70e20').find_all("a")
-        for info in industry_info:
-          industry.append(info.text)
-      except:
-        pass
-
-      for basic in basics:
-        title = basic.find("dt").text
-        # Extract skills 
-        if (title == 'Skills'):
-          all_skill = basic.find_all("a")
-          for skill in all_skill:
-            one_skill = skill.text
-            skills.append(one_skill)
-        else:
-          desc = basic.find("dd").text
-        pair = [title, desc]
-        about_job.append(pair)
-      
-      # Extract basic details about job
-      for info in about_job:
-        title = info[0]
-        desc = info[-1]
-        if (title == 'Location'):
-          location = desc
-        elif (title == 'Job type'):
-          job_type = desc
-        elif (title == 'Experience'):
-          experience = desc
-        else:
-          continue
-
-      ld_link = get_link(skills, driver)
-      writer.writerow([skills, job_name, job_type, experience, company_name, industry, company_size, location, hiring_contact, website, description, ld_link])
-      print('New job record added: ', job_name)
+        print('Skipping one link since it did not work.')
+      #tmp_limit += 1
+      #if tmp_limit > 10:
+      #  break  
 
     print('\nSuccessfully created a new csv file for angel.co jobs - ' + filename + '.')  

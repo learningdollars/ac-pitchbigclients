@@ -1,0 +1,652 @@
+skills,job_name,job_type,experience,company_name,industry,company_size,location,hiring_contact,website,description,ld_link
+"['Python', 'Javascript', 'Machine Learning', 'Node.js', 'Blockchain', 'Progressive Web Applications', 'Serverless']",Full-Stack Engineer - Inclusive Social Commerce PWA,Contract,1+ years,Lips,"['Social Media', 'Women-Focused', 'Sex Industry']",1-10 people,San Diego • Remote,"Annie Brown, Founder",http://lipszine.com,"Lips is looking for a full-stack engineer to build the majority of our front and backend of a progressive web app. The ideal candidate is dedicated to building a more inclusive internet and has some familiarity with AI/ML and Blockchain technologies. 
+This is a paid position, with possible equity and leadership position opportunities. We are based in San Diego, CA but are a distributed team. This is a remote position.
+Primary Languages:
+
+Node.js
+Javascript
+Python
+
+Note: This is a progressive web app! Prior experience with PWAs is required. 
+Key skills/features needed: 
+
+Encryption (Cryptographic Login - preferably built on public blockchain - our blockchain advisor can work with you on this) 
+Foundation of Code is Machine Learning Friendly (we use this to moderate) 
+Progressive Web App https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/ 
+Foundation of Code is Blockchain Friendly - Java, Node.js (we will be using a public blockchain TBD, all posts will be automatically uploaded to the blockchain to protect identity - again we will have a blockchain advisor helping with this) 
+Admin Web module
+API Development
+Deployment and Servers setup in Microsoft Azure, IBM or Serverless
+
+Lips offers tools for creators to promote, grow and sell their products. 
+
+Analytics, Insights Dashboard for SaaS customers
+Animations for customizability features such as drag and drop, similar to Plann App (https://www.plannthat.com)
+
+Integrations:
+
+Shopify for automatic setup of marketplace 
+Third Party Payment for Secure Transactions - Segpay, Paxum, CC Bill, Epoch
+Cryptocurrency payments through intimate.io 
+Firebase for Analytics
+Branch for deep linking on sharing
+ZenDesk for Customer Support
+Emails with YNOT Mail 
+
+Women, BIPOC, LGBTQIA candidates encouraged to apply.
+",https://www.learningdollars.com/client/select_engineers/?crid=1809
+"['Full Stack Development', 'Ruby on Rails', 'React.js']",Venture | Senior Software Engineer,Full-time,3+ years,AngelList,"['Startups', 'Recruiting', 'Venture Capital']",51-200 people,New York City • Seattle • San Francisco • Remote,"Irin Son, Head of People • 7 months",https://angel.co/,"About AngelList Venture:
+At AngelList, we exist to help startups save the world. We’re building the definitive platform for startups — where they raise money through AngelList Venture, build teams through AngelList Talent, and launch their products through Product Hunt.
+The venture team is fundamentally altering how startups raise money by replacing early-stage venture capital with modern technology. We've delivered over $1B to more than 3,000 startups over the past few years. Our infrastructure allows investors to build on top of AngelList instead of a traditional VC. This will result in a more innovative, efficient & fair market.
+We recently celebrated our ten year anniversary. Here's a fun look back at exciting milestones and a preview of what to expect from AngelList Venture going forward: https://angel.co/blog/the-next-decade
+About the Role:
+AngelList Venture is seeking a Senior Software Engineer to join our core engineering team. We have a small, tight-knit team (there's 7 of us) and we pride ourselves on having an outsized impact on the industry. Our offices are in Seattle and San Francisco, but we have team members all over the globe. Join us in our mission to innovate on the infrastructure of innovation. ✌️
+You will:
+
+Help build the world's easiest-to-use financial platform (see https://t.co/7AmuxYWHe3 – and we've made it easier since then).
+Connect startups and investors around the world who would never have had a chance to meet without AngelList.
+Know the venture financing business inside and out - from the ground up.
+Take responsibility for the code you own and improve our codebase with your presence.
+Ship every day.
+
+You are:
+
+A full-stack generalist with 3+ years experience building web applications.
+Experienced at writing clean, scalable code with significant experience in one or more scripting languages.
+Excited to move fast, prioritize, and constantly make critical product decisions.
+Comfortable with and curious about working outside of a traditional narrow engineering role.
+A self-starter: you have started something on your own before - a startup, an open-source project, something else.
+A deep love of startups (https://venturehacks.com/save-the-world).
+
+If you're interested in joining us, but don't tick every box above, we'd still encourage you to apply. We're building a diverse team whose skills balance and complement one another. We're happy to consider where you might be able to make the biggest impact.
+Benefits & Perks : At AngelList Venture, we have top of the line benefits to support our employees in their lives both inside and outside of work. See additional detail on our benefits here: https://angell.ist/venture-benefits .
+AngelList is an equal opportunity employer and we value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.
+",https://www.learningdollars.com/client/select_engineers/?crid=462
+"['Web Development', 'Mobile Development', 'API', 'React.js', 'React Native', 'Full-Stack Web Development (Node/Redux/React)']",App Developer (Full-Stack & React Native),Contract,1+ years,ROLO,"['Mobile Application', 'Website']",1-10 people,New York City • United States • San Francisco • Remote,"Matthew Deerr, Founder",https://joinrolo.com,"We would like an experienced app developer to code our beta for iOS/Android. We are in need of a website as well that would share some of the same features as the mobile beta.
+Ideally, we could form a long lasting relationship and this person could join the team full time and ride the wave with us as we grow. If being brought on to join the team full time, we can discuss equity compensation.
+Hourly rate between $25-50 depending on fit, experience, skill level.
+The app will be focused on helping creative freelancers display their portfolio, build their network, and find jobs. Additionally, it will connect creative agencies and brands with local creative freelancer talent to complete the work they need.
+",https://www.learningdollars.com/client/select_engineers/?crid=511
+"['Python', 'Javascript', 'E-Commerce', 'SQL', 'Linux', 'English', 'SQLAlchemy', 'Full Stack Development', 'Flask', 'Agile', 'Image Editing', 'HTML5 & CSS3', 'REST APIs', 'TypeScript', 'Design Patterns', 'Automation testing using Selenium', 'React.js', 'Git flow', 'Test-Driven Development (TDD)', 'NextJs']","Full Stack Developer with React, Typescript and Python",Contract,2+ years,WeGetFinancing,"['Financial Services', 'E-Commerce', 'Payments', 'Consumer Lending', 'Fin Tech']",1-10 people,New Jersey • Remote,"Alberto Montañola Lacort, CTO • 5 months",https://wegetfinancing.com,"What you will do
+As part of the WeGetFinancing development team, you will be responsible for designing, implementing, and maintaining different components of our platform.
+You will be working side to side with the CTO, you will participate in biweekly sprints, releasing quality code using test-driven development practices, and writing good technical documentation.
+You will work with a modern stack (https://stackshare.io/wegetfinancing/wegetfinancing) using innovative frameworks using Python 3 and React, being always on the edge of the technology.
+If you are a very passionate software engineer that follows engineering best practices and in search of constant growth, this offer is for you, giving you day-to-day challenges and learning opportunities.
+What you need to bring
+
++2 years of experience building innovative websites and/or mobile applications.
++2 years of experience with Python, Typescript and React.
+HTML and CSS knowledge.
+Experience with TDD (test-driven development), Unit Testing, Q&A.
+Knowledge of engineering patterns such as DRY, KISS, SOLID, etc.
+University degree in Computer Science or related.
+Fluency (both written and spoken) in English.
+
+Bonus points if
+
+Previous experience with Agile methodology
+Knowledge of Git and git-flow
+Knowledge of Selenium or similar testing frameworks.
+Experience with eCommerce applications.
+Experience developing microservices for the cloud (with AWS or similar).
+Portfolio of previous works and any related links to GitHub/BitBucket public repositories with relevant projects.
+
+",https://www.learningdollars.com/client/select_engineers/?crid=1786
+"['Node.js', 'DevOps', 'REST APIs']",Senior Backend Developer,Contract,4+ years,Red Patch Technologies,"['Artificial Intelligence', 'Internet of Things', 'Software Engineering', 'Mobile Application']",1-10 people,Toronto • Remote,"Chris Brulak, Founder",https://www.linkedin.com/company/red-patch-technologies,"Job Description
+We are looking for a Node.js Developer responsible for managing the interchange of data between the server and the users. Your primary focus will be the development of all server-side logic, definition and maintenance of the central database, and ensuring high performance and responsiveness to requests from the front-end. You will also be responsible for integrating the front-end elements built by your co-workers into the application. Therefore, a basic understanding of front-end technologies is necessary as well.
+Responsibilities
+
+    Integration of user-facing elements developed by front-end developers with server side logic
+    Writing reusable, testable, and efficient code
+    Design and implementation of low-latency, high-availability, and performant applications
+    Implementation of security and data protection
+    Integration of data storage solutions, postgres
+
+Skills And Qualifications
+
+    Strong proficiency with JavaScript 
+    Knowledge of Node.js and frameworks available for it Express,etc. 
+    Understanding the nature of asynchronous programming and its quirks and workarounds
+    Basic understanding of front-end technologies, such as HTML5, and CSS3
+    User authentication and authorization between multiple systems, servers, and environments
+    Integration of multiple data sources and databases into one system
+    Understanding fundamental design principles behind a scalable application
+    Creating database schemas that represent and support business processes
+    Implementing automated testing platforms and unit tests
+    Proficient understanding of code versioning tools, such as Git
+
+",https://www.learningdollars.com/client/select_engineers/?crid=1811
+"['Machine Learning', 'Backend Development', 'Frontend Development', 'REST APIs', 'Music Information Retrieval', 'React.js', 'Python/Django/Flask']",Full Stack Engineer,Contract,5+ years,Unbias,"['Machine Learning', 'Algorithms', 'Artificial Intelligence']",1-10 people,Los Angeles • Remote,"Mohamed Kamal, Founder",http://www.unbias.co,"We are looking for a full-stack developer to engineer the front-end and the backend code for our web application. This is a short-term contract role, with potentially rolling in to full-time. Candidate must dedicate at least 20 hrs/week for this project. 
+No software development agencies.
+Our AI application assesses an artist's audio files and estimates if they are going to trend or chart in the next 6 - 12 months, predictions are delivered in real-time. This means artists can be vetted quicker and connect with established labels, fast.
+We spent the past year researching and fine-tuning our deep learning models. It is trained on one of the most extensive datasets on music. The UX/UI design is complete and researched.
+We rely heavily on the following tools and technologies below – but you don't need to have prior experience in all of them. We don't mind what languages or frameworks you've used before (in fact, different experiences bring different perspectives to the table) - we’re just keen to know that you're willing to break things, fix things, learn fast and carry on creating. 
+Flask for backend development
+React for frontend development
+D3.js, Plotly or Bokeh for charting
+PostgreSQL for persistent data storage
+Kafka for our asynchronous message queue
+Google Cloud for our infrastructure
+Nice to have
+Experience with Music Information Retrival technologies
+Experience working with machine learning projects in production
+",
+"['Game Design', 'Educational Technologies', 'Communication Skills', 'Mobile Games', 'Game Development']",Game Developer,Contract,1+ years,Adam Wa Mishmish,"['Language Learning', 'K-12 Education', 'Educational Games', 'Edtech']",1-10 people,Cambridge • Remote,"Lina Adnani, Founder",https://www.adamwamishmish.com,"Game Developer Required!
+Game developer with practical experience in game development is required to build 2D games as part of a mobile application built with React Native technology. The app works mainly on iOS and Android based tablets and the games will be part of the app.
+The developer will build a series of 40 or more games to be plugged into our mobile app, using any suitable game development tool/framework as long as it can be integrated with our mobile app.
+We are open for full time hiring or freelancing job, qualified candidates please submit your resumes to this email: jobs@adamwamishmish.com
+",Not Found
+"['React.js', 'React Native', 'Redux', 'redux-saga']",Frontend Developer,Contract,Not mentioned,Jenzy,"['Mobile', 'Retail', 'Mobile Commerce', 'Retail Technology', 'Specialty Retail', 'Ecommerce', 'Mobile Application']",1-10 people,Philadelphia • Remote,"Eve Ackerley, Cofounder and COO • 3 years",http://www.jenzy.com,"About Role:
+We're seeking a frontend developer to join our growing team. You will work closely with our backend engineer, designer, product manager and founders to execute on our technical roadmap. You’ll be expected to hit the ground running to build new app features, tackle bugs, and ultimately create the easiest mobile shopping experience for parents.
+You will build features, review code, write tests, maintain infrastructure, and help define best practices. Our entire stack is Javascript. Our mobile app is built in React Native and our backend is written in Node on top of AWS Lambdas. Since we’re built on AWS, a familiarity with their product suite is a major plus. 
+Required Skills
+
+React Native
+React
+Redux
+Redux Saga
+
+About You:
+You are an energetic, passionate leader who’s savvy about the latest front-end and React technologies and have years of experience to back it up. You can work independently on your own and hit the deadlines you set forth. You have excellent communication skills and can work with developers all the way up to the founder level. 
+We’re looking for someone to start off as a contractor and then become a full-time employee. We are looking for someone to grow with and become an important individual contributor to our business. We are a Philly-based company and ideally someone who could come to the office regularly is great but we’re open to remote positions as well. +10 bonus points for Gryffindor if you have kids!
+To Apply:
+
+Please email your resume to eve@jenzy.com with the subject line, “Applying for Jenzy Frontend Developer.” If you have a portfolio or sample work such as apps or websites you've created in the past, please include links to those as well.
+YOU MUST BE BASED IN THE U.S.
+PLEASE NO RECRUITERS
+
+Thanks and look forward to connecting!
+Eve, Jenzy Co-Founder
+",https://www.learningdollars.com/client/select_engineers/?crid=1530
+"['Mobile Development', 'Flutter', 'Flutter Development', 'Flutter App Development']",Google Flutter Developer,Contract,3+ years,Jackrabbit Mobile,"['Mobile', 'Design', 'iOS', 'Android']",1-10 people,Austin • Remote,"Lauren Trahan, Office Manager, HR, Recruitment • 3 years",http://jackrabbitmobile.com,"Hi! We appreciate you reading our job post. Jackrabbit Mobile is an Austin-based technology consultancy founded in 2012. We partner with our clients to accelerate product-to-market solutions by leveraging our product, user experience, and software expertise.
+Location: Our team is fully remote. Looking for someone in Pacific, Central, or Eastern Time Zones. 
+Engagement: We are looking to work with a contract part-time flutter developer for a minimum 3 month term.
+Start date: Two weeks.
+Opportunity: Mobile is the core of our expertise at Jackrabbit. As a Google Flutter Developer, you will be responsible for the full development process from application development and technical architecture to code review and test build distribution within the agile development process framework. You will work within our cross-functional teams to communicate development progress and capabilities with clients to deliver innovative digital products.
+Compensation: Hourly rate negotiable based on experience.
+KEY RESPONSIBILITIES
+
+Google Flutter application development
+Technical architecture
+Debugging
+Application testing
+Code review
+Test build distribution
+Agile process participation
+Regular reports and updates
+Client communication
+
+QUALIFICATIONS
+
+3-6 years experience in the following:
+
+
+Architecting a new mobile application 
+Working in cross-functional teams, including design
+Developing with agile & scrum processes 
+Modern tooling: Slack, GitHub, Trello, JIRA 
+Implementing push notifications, analytics, crash reporting, Facebook SDK, and local data storage
+Familiar with Google’s Flutter Architecture Components
+
+Thorough knowledge of:
+
+
+Building an app from the ground up
+Networking and API communication
+Architecture, MVP and MVVM
+Google Flutter and their complete UI Toolkit (minimum one year experience)
+
+Capable of working unsupervised, self-starter
+
+A GOOD FIT WOULD BE SOMEONE WHO IS
+Professional - interacts with many different levels of people, clients, and team members 
+Organized - handles lots of information keeps projects and teams on-track and on-time 
+Modern - familiar with the latest developments in technology and development tools
+Excited - work with awesome people & tech, you should love it as much as we do!
+",https://www.learningdollars.com/client/select_engineers/?crid=1747
+"['PHP', 'Javascript', 'Ruby on Rails', 'React.js']",Software Developer,Contract,4+ years,Gramercy Tech,"['Social Games', 'Web Design', 'Design', 'Mobile Games', 'Ticketing', 'Apps', 'Technology', 'Web Development', 'Events Services', 'Live Entertainment', 'Graphic Design']",11-50 people,New York City • Remote,"Lucy Disanto, Freelance Recruiter • 5 years",http://gramercytech.com,"Gramercy Tech is looking for a well rounded software developer to join our team!
+At Gramercy, we work on a wide range of cutting edge technologies, from facial recognition and AR, to digital projection games and NFC ticketing systems. Most of our projects are created for live events, so timelines tend to be short and developers are able to work on many varied projects throughout the year.
+Of course, live events are not happening at the moment, but we are still busy working on remote conferencing tools! Our entire team is currently remote, but the office is based in Manhattan, so you should be in the region if you are interested in being in an office once the world re-opens.
+The ideal candidate will have an extensive background in software development, and will be looking to join a creative and close-knit team.
+Requirements and Qualifications:
+
+4+ years working in software development broadly
+2+ years working in front end experience, (ideally specifically with React)
+Familiarity with at least one backend software development language (Ruby on Rails, or PHP)
+Understanding of relational database systems and experience with MySQL or PostegreSQL)
+Proficient in working with command line tools-experience developing in OSX or Linux
+Interested in working on interactive technologies
+
+",https://www.learningdollars.com/client/select_engineers/?crid=2389
+"['Python', 'Javascript', 'MongoDB', 'Node.js', 'Coffeescript', 'Meteor']",Full Stack UX (Javascript) Engineer,Contract,3+ years,CoWorkr,"['Business Intelligence', 'Predictive Analytics', 'Commercial Real Estate']",1-10 people,Reno • Traverse City • Remote,"Elizabeth Redmond, Founder",https://coworkr.co,"CoWorkr is a leading Workplace Analytics company using sensors to generate real-time data on workplace occupancy and rich analytics for real estate strategists. We build our own hardware and software to offer a complete end-to-end service to global customers. Our technology is now helping major corporations with their return to workplace strategy. We provide real-time data on safe distancing measures, kiosks to help staff find available and unused seats/rooms, analytics for planning, and daily use maps for janitorial staff. Since inception in 2014, our tech has been deployed in 200+ unique workplaces globally including the offices of LinkedIn, Salesforce, HSBC, Henkel, WSP, and Paychex. CoWorkr has collected over 5M days of data and is distributed by CBRE, JLL, Haworth, iOffice, and more.
+Our technology includes:
+Hardware-enabled software (Bluetooth Sensors that stream data to a Cloud)
+Meteor- and Javascript- based web app that visualizes real-time and historical data
+API for integrating data with partner apps
+We are seeking a Fullstack Engineer with a focus on frontend and UX. You will be involved in the entire software development process to ensure quality and value throughout the entire product but expected to have experience in building beautiful frontends. In detail this will include building dashboards that utilize real-time and historical sensor data as well as other software dev tasks. You will be working on a small team under our CoFounder and CTO.
+What You’ll Do:
+Codesign and Implement new front end features
+Maintain App through testing/ bug fixing
+Maintain and implement new data sources into the app’s analytics
+Perform needed technical and nontechnical tasks throughout the entire platform
+What You Bring:
+3+ years in a Software Development and/or Fullstack Engineering role
+Minimum Bachelor’s degree in Computer Science (or another STEM discipline) 
+Expert with Javascript, CoffeeScript, MongoDB, RestAPI, HTML, CSS, Meteor, and Python
+Ability to self-manage and be autonomous among a distributed team in an agile environment
+Fluent in english and authorized to work in the US
+What We Bring: 
+Startup CultureFlexible work hours
+Work-from-Home
+Medical, Dental, Vision
+Performance based option grants
+Flexible PTO
+",
+"['Javascript', 'Git', 'Firebase', 'Angular', 'Angular 8']",Software Engineer - Angular 5+,Contract,3+ years,RendezView.io,"['SaaS', 'Collaboration', 'Technology', 'Communications Software', 'Collaboration Software']",1-10 people,California • Oregon • Hawaii • Remote,"Stefan Opsal, Founder",https://rendezview.io,"WHAT YOU NEED:
+Our ideal candidate has 3+ years software development experience using:
+
+JavaScript, Typescript
+Angular 5+ (MUST HAVE)
+Firebase
+Git
+Plusses:
+
+
+Experience with backend Node and Electron
+Experience with Google Cloud. 
+Ability to complete all phases of software development life cycle including analysis, functionality, testing and support.
+
+
+PREFERRED SKILLS AND EXPERIENCE:
+
+Fluency in English, Spanish a plus.
+Excellent verbal and written communication skills.
+
+WHAT YOU GET:
+
+Compensation packages consisting of either a Full Time Contract OR Salary + Equity.
+The opportunity to build innovative technology in the booming Collaboration Tech market.
+Get in on the ground floor as one of the first 5 employees at a venture backed startup.
+Live and work remotely.
+
+",https://www.learningdollars.com/client/select_engineers/?crid=1792
+"['Networking', 'System Design']",Senior Systems Engineer,Full-time,5+ years,Orchid Labs,"['Security', 'Blockchain / Cryptocurrency']",11-50 people,San Francisco • Remote,"Daniel Montgomery, Project Manager",http://orchid.com,"Ready to put control back in the individual's hands when they go online?  Orchid Labs is looking for a senior developer who can move effortlessly from web to mobile, front-end to -back.
+Most Important:
+
+An obsession with excellence and usability which borders on OCD
+6+ years experience working on systems development
+Ability to own our entire application front-to-back
+Ability to write clean, testable, efficient code
+Interest in collaborating with counterparts doing Android and iOS  development
+
+Nice to Have:
+
+Previous start-up experience
+Experience conducting user testing
+Previous experience working with security auditors
+Financial literacy and working knowledge of financial instruments
+Familiarity with security-related research and concerns
+
+Personal:
+
+Fluent in written and spoken English
+Appreciation for open-source as a philosophy
+Fundamental belief in individual human goodness
+
+",Not Found
+['React.js'],Frontend developer (React),Contract,2+ years,Contento,"['Social Media', 'Artificial Intelligence', 'Small and Medium Businesses', 'Marketing Automation']",11-50 people,San Francisco • Antwerp • Remote,"Ludwig Dumont, Investor • 2 years",http://www.hellocontento.com,"Responsibilities:
+
+You will be responsible for developing the frontend of the Contento platform.
+
+What we are looking for:
+
+Experience with most of the following technologies: Javascript, React.js, Redux
+You are able to generate clean React Components based on the design input
+You have a passion for good design and use animations to enhance the user experience
+Ability to quickly learn new technologies
+You are pragmatic and do what’s best for the product/business
+You help think about the user experience
+You are able to challenge the product owner when something can be done faster or better
+
+What we offer:
+
+The chance to be part of a growing young company 
+Working remotely and/or at our offices
+The ability to grow in your role 
+A flexible, result-driven work environment
+Competitive remuneration package
+
+",Not Found
+"['Javascript', 'React.js', 'Graph Ql', 'Redux', 'Polaris', 'Next.Js']",React Frontend Software Engineer,Contract,4+ years,Tenddo,"['Web Design', 'Web Development', 'Digital Marketing']",11-50 people,San Francisco • Remote,"David Patterson Craig, Project manager • 6 years",https://www.tenddo.com,"Are you an experienced yet curious frontend engineer? Have you always wanted to join an early-stage startup? You will be challenged to build interfaces that delight users and adhere to the Polaris design system (https://polaris.shopify.com). You'll also get to interact with customers directly to see the fruits of your labor, however ripe, and get that delicious feedback firsthand. Isn't that bananas?! ;)
+You will be working on a single-page application (SPA) written in React utilizing Redux for state management and communicating with RESTful endpoints, backed by SQL databases. Building sophisticated technology that's effortless to use takes great skill and care, come craft something you're proud of.
+Required expertise
+JavaScript
+React/Redux
+Polaris
+Next.js
+GraphQL
+HTML5/CSS3
+Preferred experience
+Node.js/Express
+REST APIs
+AWS
+",
+[],Software Engineer,Contract,2+ years,ID-Queue,['Healthcare'],1-10 people,United States • Remote,"Alexandra S Avedisian, Founder",https://www.id-queue.com,"Web and Mobile App Developer/Support Job Responsibilities:
+The role is responsible for designing, coding and modifying websites, from layout to function and according to company specifications. Strive to create visually appealing sites that feature user-friendly design and clear navigation. Concurrently a Mobile Application will require development, support and maintenance as changes and updates are needed.
+Web and Mobile App Developer/Support Job Duties:
+• Understanding of HIPAA regulations and standards 
+• Ability to scope and apply your expertise to many interesting technical problems.
+• Candidate must have a strong understanding of UI, cross-browser compatibility, general web functions and standards.
+• The position requires constant communication with colleagues.
+• Experience in planning and delivering software platforms used across multiple products and organizational units.
+• Deep expertise and hands on experience with Web Applications and programming languages such as HTML, CSS, JavaScript, JQuery and API's.
+• Deep expertise and hands on experience with iOS Mobile Applications and programming languages such as xCode and Swift
+• Deep functional knowledge or hands on design experience with Web Services both IIS and Apache
+• Strong grasp of security principles and how they apply to E-Commerce applications.
+• Strong debugging and an ability to apply critical thought to problem solving
+• Able to communicate and balance customer needs and provide support. 
+Web and Mobile App Engineer Skills and Qualifications:
+• PHP, JavaScript, JQuery, HTML, HTML5, CSS, CSS3
+• Web Programming Skills, iOS, Objective C, Swift
+• XCode,  iTunes Connect, App Loader, Test Flight
+• Cross-browser compatibility, Web User Interface Design (UI), Security Principles, Object-Oriented Design, Web Services (REST/SOAP), Multimedia Content Development, API's
+• Teamwork and Verbal Communication
+",Not Found
+"['Wordpress', 'Communication Skills', 'Frontend Development', 'API', 'React.js', 'English language']",Full Stack Engineer,Contract,3+ years,The Bosco,['Events'],1-10 people,United States • Remote,"Monica Moncayo, Employee",https://thebosco.com,"Note: This role is W2 only and the person must be US-based.
+WHO WE ARE:
+We are an event technology company that has pivoted to virtual events during the pandemic, and are pioneering the space with highly custom, interactive live web experiences for major brands. We are looking for part-time help as we scale up in this new space (opportunity to turn into full time as more projects come in).
+Most of our projects involve a custom-built website, including several “rooms”, each of which is a page that includes lightly interactive elements, streams, chat, etc. The browser experience is desktop first, but also needs to be responsive.
+WHO YOU ARE: 
+Front end skills / React whiz. Backend skills with Node.js experience. Experience with production-grade web applications with sophisticated animations and designs with highly custom user interface elements, client-side routing that accounts for users with different permission levels and animated transitions, embedded video (and possible streaming) elements. Experience integrating with APIs and custom backends. Three.js or any other interactive frameworks are a plus. Someone with experience in Node.js, building websites that potentially cater to high visitor traffic. Also need experience dealing with security requirements of major, global corporations. Will likely use AWS / Azure. Full stack developer is preferred but we're open to receiving applications from frontend and backend developers as well.
+WHEN: Part-time position, starting in the next few weeks, opportunity to go full time if/when as we grow in the space.
+PAY: Looking to pay in the range of 50-100+/hour roughly, DOE. Payment must be structured as a W2.
+",
+[],Senior Full Stack Engineer | 8 hours a week,Contract,4+ years,Areena,"['Sports', 'Fitness', 'Recreation', 'Fitness Gamification']",1-10 people,Frisco • Remote,"Lance McDonald, CEO • 2 years",https://heroleague.io,"Watch our demo video here.
+Who we are
+Founded by Stanford and Berkeley grads, Areena is building the future of recreational sports. There are 50 million adults in America playing sports every year, but they are served right now by an old-school network of small organizations offering largely the same product they did 30 years ago. We are changing that in a big way by building a tech-centric platform that transforms the experience, making it far easier and more fun for anyone to play whatever sport they want, all year long.
+Where we are
+Having validated our business model and value proposition, we have joined the Capital Factory Accelerator and are stepping into the next phase of the startup journey - refining/expanding our product offering and scaling across Texas. 
+What we’re looking for
+We need a rock-star technical leader to join our team on a part time basis. You will spend 8-10 hours a week helping to guide our development in a unique builder / coach capacity. While you'll get your hands dirty building product, you'll also be either leading junior developers to execute your vision or helping develop the technical skills of the CEO.
+Experience And Skills 
+
+Masters / Bachelors degree required in Computer Science, Software Engineering, or equivalent experience 
+Knowledge of our tech stack - React, Flutter, Python, AWS, MongoDB
+5+ years of software engineering experience or equivalent
+Proven track record of turning ideas into products
+Working knowledge of designing and building web scale applications
+Experience building API frameworks from scratch
+Static and Dynamic programming language expertise
+RDBMS Design and Scaling experience (Indexing, Partitioning, Normalization, De-normalization)
+Working knowledge of ElasticSearch or other Lucene based search engines
+Knowledge of professional software engineering best practices including coding standards, code reviews, SCM, CI, build processes, unit and functional testing, automation, and operations 
+Strong communication, organizational and time management skills
+
+",Not Found
+"['Python', 'Data Analysis', 'R', 'Statistical Modeling', 'Data Science']",Data Scientist,Contract,3+ years,Teller,"['Financial Services', 'Finance Technology', 'Blockchain / Cryptocurrency']",1-10 people,San Francisco • Remote,"Christopher Lee, Head of Growth & Operations • 7 months",https://teller.finance/,"Job Description
+We’re opening a position for an experienced Data Scientist/Data Analyst. If you are looking to shape the future of decentralized finance and lead the next wave of blockchain adoption, we are the right project for you. Experience in blockchain is a big plus. The role is remote, although North American time zone residence takes preference.
+Roles & Responsibilities
+• Build and refine our default and/or pricing models using structured data
+• Identify, analyze, and acquire new data sources to improve model accuracy
+• Influence Teller's product offerings based on quantitative insights
+• Become a domain expert in risk and/or pricing
+• Day to day, this will include a mix of dataset acquisition, statistical modeling, exploratory data analysis, and software engineering.
+• You'll work closely with the CEO and our talented engineering team.
+Work Experience
+• You have 3+ years of experience in machine learning, data science or analytics
+• You have experience in either R or Python
+• You have a strong understanding of statistical modeling techniques
+• You demonstrate the ability to clearly communicate analysis
+• Bonus points for previous credit default modeling experience, risk management experience, and/or AVM experience
+",https://www.learningdollars.com/client/select_engineers/?crid=812
+[],Shopify App Developer,Contract,3+ years,Vray,"['E-Commerce', 'Mobile Payments']",1-10 people,San Diego • Remote,"Jack Shauh, Founder",http://www.vrayinc.com,"Develop a Shopify App for our recurring payment project. Applicant needs to be familiar with Shopify APIs, such as Order, Shipping and Fulfillment APis. On one end, the Shopify App integartes with Shopify platform, on the other end, the Shopify App integrates with our core payment engine.
+The appliciant should have the following qualifications:
+
+minimum 3 years experience working with Shopify e-commerce platform. - BS in Computer Science or Computer Engineering
+know-how on e-commernce platform integration
+famiiliar with C# and .Net environemnt
+Modern server software development methodology
+familiar with RESTful APIs
+
+",Not Found
+"['Heroku', 'React.js', 'AWS', 'React Native', 'Javascript AngularJS ExpressJS NodeJS MongoDB']",Tech Lead (Part-Time Employee),Contract,3+ years,AsylumConnect,"['Nonprofits', 'Gay & Lesbian Market', 'Immigration', 'Civic Tech']",1-10 people,New York City • Remote,"AsylumConnect Human Resources, Human Resources ",https://asylumconnect.org,"We’re looking for a collaborative and committed tech lead to join our remote team part-time. As AsylumConnect’s tech lead, you will be responsible for both technical project management of volunteers and coding. This is an exciting opportunity to serve as the technical lead for the AsylumConnect Catalog (the world's first tech resource platform designed for those fleeing persecution due to sexual orientation or gender identity).
+Starting Compensation & Schedule: $35 per hour for 15 hours per week. Note: You must be based in New York or the District of Columbia, and available to start working remotely ASAP. 
+AsylumConnect’s Tech Stack:
+
+JavaScript / Node
+React
+React Native
+Heroku
+MongoDB, Express.js
+
+For more information and to apply, visit our website: https://asylumconnect.org/position/tech-lead/
+",https://www.learningdollars.com/client/select_engineers/?crid=2392
+[],Software Engineer,Contract,3+ years,Peña Defilló,"['Mobile Commerce', 'Mobile Advertising', 'Mobile Application']",51-200 people,Dominican Republic • Remote,"Rolando Pierre, Employee",https://penadefillo.com/,"Full Stack Developer Job Description Template
+We are looking for a highly skilled computer programmer who is comfortable with both front and back end programming. Full Stack Developers are responsible for developing and designing front end web architecture, ensuring the responsiveness of applications and working alongside graphic designers for web design features, among other duties.
+Full Stack Developers will be required to see out a project from conception to final product, requiring good organizational skills and attention to detail.
+Full Stack Developer Responsibilities:
+Developing front end website architecture.
+Designing user interactions on web pages.
+Developing back end website applications.
+Creating servers and databases for functionality.
+Ensuring cross-platform optimization for mobile phones.
+Ensuring responsiveness of applications.
+Working alongside graphic designers for web design features.
+Seeing through a project from conception to finished product.
+Designing and developing APIs.
+Meeting both technical and consumer needs.
+Staying abreast of developments in web applications and programming languages.
+Full Stack Developer Requirements:
+Degree in Computer Science.
+Strong organizational and project management skills.
+Proficiency with fundamental front end languages such as HTML, CSS and JavaScript.
+Familiarity with JavaScript frameworks such as Angular JS, React and Amber.
+Proficiency with server side languages such as Python, Ruby, Java, PHP and .Net.
+Familiarity with database technology such as MySQL, Oracle and MongoDB.
+Excellent verbal communication skills.
+Good problem solving skills.
+Attention to detail.
+",Not Found
+[],Need help putting together a team to build a prototype,Contract,3+ years,SkillConnection.com,"['Mobile', 'E-Commerce Platforms', 'Local Services', 'Local Businesses', 'Blockchain / Cryptocurrency']",1-10 people,San Francisco • Raleigh • Wilmington • Remote,"Anthony Richards, Founder",http://skillconnection.com,"Looking for an honest diligent professional that could take my basic XD wire frame to development and implementation.
+Must be based in the US and willing to sign and honor a non compete.
+Must have the ability to take my wire frame concept, give a quote, break the project down into installment payments with a time frame.
+I will be available 8 to 8 to guide and direct the process and answer any questions in order to stay productive and on target
+This site is not about the decorations, just looking for basic functionality.
+",Not Found
+"['C++', 'Node.js', 'DevOps', 'Full Stack Development', 'HTML5 & CSS3', 'Remote Working']",Full Stack Developer,Contract,5+ years,PWV Consultants,"['E-Commerce', 'Developer APIs', 'Cyber Security', 'Software Engineering']",11-50 people,New York City • Remote,"Dustin Duane , COO • 1 year",https://www.pwvconsultants.com/,"*Please apply here: pwvconsultants.applytojob.com/apply/Obeuq6zBeG/Full-Stack-DeveloperPWV Consultants is looking for experienced Full Stack developers to join our team. PWV is a boutique group of experts in the tech and design industries that are trusted by Fortune 500 companies, rising startups, universities, governments and industry groups to tackle their biggest and baddest tech issues.To best serve our clients you’ll delve into new subject matter everyday, and you’ll always be on the lookout for innovative ways to approach each project. We are looking for ever-curious, highly collaborative, and outcome oriented individuals who are not afraid to dive into new territory.You’ll join a highly experienced cross-functional consulting team in developing custom web applications using amongst others: Javascript, Java, HTML5, CSS, Node, C++, Python. As well as implement and design modern infrastructure with AWS, Azure, Mongo, SQL. You might have a greater interest or knowledge in some of these technologies than others, but we’re looking for people who want to make well-rounded full stack contributions to everything they work on. We are less interested in what languages and tech you know and more interested in how you approach and understand coding.    PWV is a 100% remote company whose team is distributed all over the United States. We value the experience of our devs and only take on projects that are interesting, contain challenging subject matter, or feature new/unexplored concepts. Our people work flexibly in the environment they choose on projects worthy of their talents. Skills and Requirements:Professional experience working with some of the languages and the systems listed above or equivalents, for a minimum of 5 years.An expert grasp on OO and functional design patterns that avoid redundancy and promote efficiency, legibility, testability, and maintainability of code.Desire to collaborate and innovate with a highly experienced team.A track record of working with project management teams to achieve software development goals.Expert level communication and documentation. Experience collaborating in distributed teams is a plus.",https://www.learningdollars.com/client/select_engineers/?crid=1814
+"['Python', 'Java', 'noSQL', 'Leadership', 'Swift', 'AWS']",Software Engineer,Contract,Not mentioned,Minimap,"['Retail', 'Events', 'Mobile Application']",1-10 people,New York City • Remote,"Antonio Silveira Guanaes Gomes, Founder",https://minimap.us,"Software Engineer with full-stack experience and knowledge of IOS development(Swift).
+",https://www.learningdollars.com/client/select_engineers/?crid=1781
+"['Software Engineering', 'Product Management', 'Team Player', 'Communication Skills', 'Mobile Application Development', 'Ability to work under pressures']",Head Software engineer,Contract,3+ years,Startup/Mobile application,"['Mobile', 'Social Media', 'E-Commerce', 'Mobile Games']",1-10 people,New York City • Minneapolis • Remote,"Eric Stormoen, Founder",http://www.ittellafoods.com,In charge of building the nuts and bolts of the application and eventually over seeing a team of engineers hired/vetted by you.There will be an opportunity for co-founder / equity parternship if applicant desires.,https://www.learningdollars.com/client/select_engineers/?crid=502
+"['MongoDB', 'Express.js', 'React.js', 'Full-Stack Web Development (Node/Redux/React)']",Tech Lead / Full-Stack Developer,Contract,1+ years,DateSpot,"['Photography', 'Online Dating', 'Personal Branding', 'Dating']",1-10 people,United States • Remote,"Carla Swiryn, Founder • 1 year",http://www.datespot.love,"Overview:
+I'm looking for someone to lead a junior developer that I've partnered with. The project is to continue developing DateSpot, the first marketplace connecting singles with matchmaking clients, across multiple companies. It's a unique dating site that's private, requires no messaging and allows human matchmakers to do the work in finding people love.
+You would be an integral part of the company's vision and execution long-term. I'd like someone who wants to be part of the team, even if potentially and down the road, rather than someone at an agency who wants to stay there.
+Tasks:
+There are some high priority tasks that I'd like completed, and then potentially a complete refactor (there are currently two types of code). The roadmap includes mobile optimization, creating a CMS, new pages for referrals to other experts, and integrating data to apply filters that are game-changing in the industry. Down the road, I'd love to do AI integration and I'm totally open to ideas.
+Requirements:
+
+At least 1 year of professional coding experience out of school, and 3+ years preferred.
+Intimate knowledge of Facebook React, Node/Express, and MongoDB.
+Experience working in Digital Ocean
+Knowledge of automated emails through SendGrid
+Strategic thinking and you enjoy being asked a lot of questions about how we should do things on the site.
+Comfortable with starting from other people's code, and in this case, different code styles across two different previous teams
+Experience mentoring or teaching someone else in the coding space
+Live in the U.S. (PST preferred)
+You think that working in the dating industry would be fun!
+
+Compensation:
+DateSpot Inc. is a C-corp, so I'm open to you joining for full or partial equity. I'd like to do a test period with you as a contractor first to see how we work together as a team with the other developer - $500 initially, based on $50/hr. Past that point, we can talk about how we want to move forward - you alone, you with the current junior dev, or you with a different developer.
+Let's do this and bring people love!
+",https://www.learningdollars.com/client/select_engineers/?crid=1817
+"['Java', 'Git', 'Spring', 'Microservices', 'Spring Boot']",Lead Developer (Part-Time to Hire),Contract,5+ years,Vishion,"['Machine Learning', 'Retail Technology', 'Computer Vision', 'Ecommerce']",1-10 people,Charlotte • Remote,"Sam Smith, Founder",http://www.vishion.co,"We are looking for a passionate Software Engineer excited about building sound solutions to interesting technical problems such as Color Search and Social Sharing. You will be hands-on working and growing in a small-team environment, helping us scale our business through the implementation of key technical initiatives.
+Day-to-Day Responsibilities Include:
+· Developing APIs and other functionality
+· Providing support for defect resolution
+· Providing support in project scoping
+· Improving upon engineering processes
+· Collaborating regularly both with the engineering team and other team members across the firm
+· Attending daily standup
+Preferred Qualifications:
+· Excellent communication skills
+· Proficiency with Java
+· Proficiency with Spring Boot
+· Proficiency developing RESTful APIs
+· Understanding of Relational Databases and SQL
+· Ability to thrive in a dynamic, rapid-growth environment
+Compensation and hours:
+We are looking for someone to work in a Part-Time capacity for the first three months for cash and equity, with the hope of hiring full-time with equity.
+We are on a bootstrap budget, looking for someone interested in joining a high-growth startup as one of the first 10 employees. Early employees will be eligible to receive equity.
+...
+About Us:
+Vishion is a color search engine for design lovers to find decor.
+Location:
+We are accepting remote applications.
+",https://www.learningdollars.com/client/select_engineers/?crid=2393
+"['iOS Development', 'JSON', 'Xcode', 'Swift']",Senior iOS Software Engineer,Contract,4+ years,Slumber Group,"['Mobile', 'Personal Health', 'Technology', 'Health and Wellness']",1-10 people,North Carolina • Georgia • Remote • Remote,"Huxley Seidman, CTO • 1 year",https://slumber.fm,"Slumber Group is looking for a talented iOS Software Engineer to help develop exciting new features for our popular Sleep Apps.As an iOS Software Engineer you will be responsible for all technical aspects of planning and implementing new features.  The codebase is in Swift 5 and uses SnapKit for Auto Layout.The position is 100% remote and at least 1 year of experience working in a remote environment is required.You will have the opportunity for professional growth, work with the latest technologies, and help millions of users worldwide.Responsibilities (what you’ll do): -Write and maintain high performance, reusable, and reliable code.-Collaborate with a cross-functional team to define, design, test, and ship new features.Qualifications (what you have): -1+ years working remotely.-3+ years of iOS development experience.-2+ years of database experience. -1+ years of writing views programmatically with Auto Layout.-1+ years consuming server APIs (networking and parsing JSON)-Strong working knowledge of the latest mobile development practices.-Experience with Git is required.How We Work-We respect work life balance with flexible working hours-We have ownership of how we complete work-We take responsibility for our outcomes -We are creative in how we approach problems-We share information and learn from each other -We pride ourselves on being adaptable because change is a constant-We focus on the customer-We make mistakes, learn and improve as we iterate-We focus on delivering value quickly and iterating on lessons learnedTechnologies you will work with (bonus if you already have experience):-SnapKit-Audio Frameworks-StoreKit-Core Data-Accessibility (Dynamic Type, Voice Over)Application Bonus:Include a cover letter with links to the App Store of apps you have personally worked on.",https://www.learningdollars.com/client/select_engineers/?crid=2394
+"['Data Visualization', 'Interaction Design', 'Rapid Prototyping', 'UI/UX Design', 'Web Application Development', 'Web Application Design', 'Video Game Design']","Data Visualization Designer, UX/UI Designer",Contract,2+ years,BACKED,"['Enterprise Software', 'Healthcare', 'Data Visualization', 'Risk Management']",1-10 people,United States • Remote,"Meisha Brooks, COO • 3 months",https://workbacked.com,"BACKED is a data-driven CDC and SAG-AFTRA compliant COVID-19 solution and decision-making platform created to help companies navigate with dynamic risk analysis, compliance support, and policy execution.
+As a Data Visualization Designer at BACKED you will design client facing dashboards that will save lives. You work will communicate danger and risk to encourage life-saving change and compliance. 
+
+You are a visual thinker and builder, having a strong creative eye
+Strong graphic design skills
+Love data visualization
+Marketing, Branding Material Creation
+A background in video game design is a plus!
+Front end developer capabilities would be an incredible plus
+
+What we are building is incredible and as our second full time hire and first designer, you'll have a ton of impact — both on how the product looks/feels/functions — but also on the design culture we build together.
+Salary Depends on Experience
+3 Month Contract with the potential for full-time.
+",https://www.learningdollars.com/client/select_engineers/?crid=1799
+"['Python', 'C', 'HTML5 & CSS3']",Full Stack Engineer,Contract,4+ years,Lodestar,"['Social Commerce', 'Social Media Platforms', 'Mobile Application']",1-10 people,California • Remote,"John Roessler, Founder",http://lodestarhub.com,"Do you seek the outdoors and adventure? Are you inspired by wild places and seek to inspire others? Do you promote sustainability? 
+This is Lodestar – and we’re seeking other highly motivated, experienced professionals with rockstar coding skills and a passion for adventure to join us in launching a one-of-a-kind community hub focused on outdoor recreation and travel. 
+We are currently looking for a Full Stack Engineer.  You will be part of a small, experienced and dynamic, team responsible for the product from conception to deployment.  You should be at home with both front-end and back-end coding methodologies including multiple languages and development frameworks. You should also be a team player with a knack for visual design and utility.
+Responsibilities
+● Design foundational elements to a technical POC client-side and server-side architecture
+● Build the front-end of applications through appealing visual design
+● Develop and manage well-functioning databases and applications
+● Write effective APIs
+● Test software to ensure responsiveness and efficiency
+● Troubleshoot, debug and upgrade software
+● Create security and data protection settings (i.e. cybersecurity)
+● Build features and applications with a mobile responsive design
+Qualifications & Requirements
+● A passion for life and the outdoor adventures lived everyday
+● Excellent teamwork and communication skills
+● Multiple referenceable experiences developing successfully adopted scalable software solutions
+● Expert knowledge of multiple back-end languages (e.g. C#, Java, Python) and JavaScript frameworks (e.g. Angular, React, Node.js)
+● Proven experience as a Full Stack Developer or similar role lead technology role in a fast-pace start up environment
+● Expert design capability with databases (e.g. Postgre, Oracle), web servers (e.g. Apache) and UI/UX design
+● Expert knowledge of multiple front-end languages and libraries (e.g. HTML/ CSS, JavaScript, XML, jQuery)
+● MS/BS Degree in Computer Science, Statistics or relevant field.
+",
+"['Java', 'Android', 'Android SDK', 'Android Application Development', 'Android Development']",Android software developer *REMOTE*,Contract,2+ years,Giftapart,"['Social Media', 'E-Commerce', 'Retail', 'Social Commerce', 'E-Commerce Platforms', 'Retail Technology', 'Event Management', 'Event Planners']",11-50 people,Somerville • Remote,"Filipe Pedroso, Founder",https://giftapart.com,"Giftapart Inc. is an innovator in social ecommerce and changing the culture of gifting. Located in Somerville, NJ, the company seeks top-notch innovators and programmers to join our team of coders to continue development of our patent-pending new methods of ecommerce. Giftapart is founded and managed by its CEO Filipe Pedroso, an award winning attorney and elected public figure, with the guidance of its investors and Board composed of seasoned technology angel investors, business owners, and ex-Wall Street executive/NHL team owner.
+Seeking experienced Android coders with proficient knowledge in Android SDK and Java. Knowledge of Retrofit and Kotlin a plus.
+Must have knowledge and comfort level to work without supervision and technical support. Work is mostly remotely, but office location in Somerivlle, NJ is available for those who prefer in-office time.
+Skills needed:
+
+Android SDK (High profciency / Required)
+Java (High profciency / Required)
+Retrofit (Moderate proficiency / Bonus)
+Kotlin (Moderate proficiency / Bonus)
+
+This is primarily a remote position, paid hourly.
+Giftapart is available on any browser as well as on Apple App and Google Play stores. Check it out:
+
+Browser/Desktop/Tablet: https://giftapart.com
+Apple App Store
+Google Play store
+
+We've looking for talented, top-rated people to join our team.
+",
+"['Python', 'Docker', 'Kubernetes', 'NLP']",Backend Developer (NLP),Contract,3+ years,SpotlightAI,['Enterprise Software'],1-10 people,Boston • Remote,"Austin Osborne, Founder • 9 months",https://www.hellospotlight.com,"SpotlightAI is an early-stage AI startup, incubated out of Harvard and MIT. Our vision - create a world where data is shared safely and securely. Join an exciting, VC-backed company and work hand-in-hand building a cutting-edge platform.
+We are looking for a contract/part-time Python developer with some basic experience in NLP (basic terminology and understanding of natural language concepts).
+Basic Qualifications:
+
+High level of proficiency in Python
+Basic knowledge of Docker
+5-10 hours/wk. availability
+
+Preferred Qualifications:
+
+Experience with spaCy, NLTK or similar framework
+Experience in API development
+Basic knowledge of Kubernetes
+
+",https://www.learningdollars.com/client/select_engineers/?crid=2395
+"['Python', 'Product Management', 'Technical Support', 'Data Science', 'Customer Success']",Product Expert,Full-time,3+ years,Hex,"['Analytics', 'Developer Tools', 'Big Data Analytics']",1-10 people,San Francisco • Remote,"Barry McCardel, Founder",https://hex.site,"About Hex
+Hex is building a modern data analysis platform to empower data teams to have outsize impact within their organizations. With Hex, users can easily connect to data, build and collaborate on analyses, and turn their work into beautiful data-driven apps usable by everyone.
+Our current team is focused primarily on engineering and design. We're all working remotely, plan to do so for the foreseeable future, and will always offer first-class support for remote team members.
+We're backed by great VC funds and angels, so we're able to offer competitive salary and meaningful early-stage equity. We also offer unlimited PTO, flexible benefits, free lunch, and more.
+Though we're small, we value building a thoughtful and intentional company culture. We prioritize autonomy, quality, feedback, and bias toward action. You might be a good fit to join us if you enjoy building thoughtful products, empowering users, and helping data teams do their best work.
+About the role
+The Product Expert is a critical role that will give you exposure to everything at Hex.
+Our focus is on building a valuable product that users love, and all your work will feed into that. You will engage with our users, help them understand Hex, synthesize their feedback, and build the infrastructure to support our growing customer base.
+You will also work closely with Engineering and Design to research, scope, and roll out new product features based on user needs and feedback.
+Hex is an early-stage company, and the right person for this role should be able to thrive in an unstructured environment. You will be expected to self-direct, be comfortable navigating ambiguity, and drive the evolution of the scope and focus of your role over time.
+In the near-term, expect a lot of hands-on, nitty-gritty work, often needing to flex in to other areas and wear new hats, including occasionally plugging in on Ops, Marketing, or Sales until we have dedicated people in those functions.
+In the mid-to-long-term, expect an increasing amount of specialization into a deeper role, with a goal of eventually building and scaling a team.
+Core responsibilities will include:
+
+Working with users through the lifecycle from onboarding to implementation to day-to-day support, including serving as front-line for issues and ongoing engagement.
+Translating user feedback and needs to well-scoped requirements, and working with Engineering and Design to deliver them in the platform.
+Building infrastructure around user onboarding and support, such as our waitlist, support channels, and customer communications.
+Tracking metrics and measurement on user engagement and behavior.
+Crafting well-written user-facing communications and documentation.
+
+About You
+We're looking for candidates with:
+
+Experience as a working data scientist, analyst, or engineer, using SQL, Python, or R; or comparable, direct experience building products in this space.
+A demonstrated aptitude for partnering with internal or external stakeholders.
+Excellent communication skills, both written and live, with an emphasis on clarity, concision, and candor.
+A high rate of learning, natural curiosity, and eagerness to debate opinions to find truth.
+A passion for team work, and willingness to be patient, provide honest feedback, and help us build an awesome company culture.
+
+A 🦄 candidate will also have:
+
+Experience in an internal or external user-facing role (such as Product Manager, Customer Success, Support, Advocate, Solution Engineer, etc.) with a demonstrated ability to build high-trust relationships.
+Familiarity with the contemporary data stack across ETL, storage, BI, ML, and everything between, with a demonstrated ability to stay up to date with new developments.
+Experience with team management, including hiring and org design.
+
+",https://www.learningdollars.com/client/select_engineers/?crid=2396
+"['Javascript', 'Web Design', 'Graphic Design', 'User Experience Design', 'Design', 'UI/UX Design', 'Product Design', 'Vue.Js', 'VueJS']",UI Engineer (JavaScript),Contract,3+ years,Relevize,"['Enterprise Software', 'Sales and Marketing', 'Sales Automation', 'Marketing Automation', 'Digital Marketing']",1-10 people,Boston • Remote,"Mike Nardella, Founder",http://relevize.io,"About the Company and Candidate
+Relevize is a fast-growing sales enablement and marketing technology platform that enables cutting-edge technology companies to leverage their business partnerships into scalable digital marketing and sales channels. Want to build a product for senior sales executives and CMO’s of fortune 500 companies?
+
+We serve clients like Global Marketing Directors and Chief Revenue Officers at companies including Hulu, Microsoft, Amazon, HBO and more
+Our end-users are innovative sales and marketing leaders at fast-growing technology companies like Stratus Technologies, Panzura.com, and more. These users are cutting-edge thinkers who are excited to help us build our product alongside our team
+We are bootstrapped, currently cash-flow positive, achieved 10x revenue growth in 2019
+Our CEO and CTO formerly built and sold a successful digital marketing business
+
+UI Engineering Role (JavaScript)
+What life looks like in this role
+The Javascript UI Engineering role will work on a small team of engineers with daily team interactions on slack and will be a part of two company-wide team check-ins each week (40- minutes on Monday and 20-minutes on Thursday via Google Hangouts). The expectation is that you will be the most experienced and knowledgeable designer on the engineering team. You will be asked to contribute to decisions and will be seen as the leading authority when it comes to design decisions. You can expect to regularly contribute to low-level day to day front end development tasks that may be urgent as well as building out the overarching design structure that the product requires. You should be comfortable working independently, have the ability to bring new ideas to the table through experience and work in a highly creative and fast-paced environment. You will be expected to polish the user interface and experience of our product, while also understanding that we are a fast-growing startup and the product may change rapidly. The candidate must be comfortable with:
+
+Being highly creative, autonomous and highly effective on a small team
+His or her UI and UX work becoming critical and a massive difference maker to the company’s overall success
+Developing his or her own processes and structure around the role
+The risks and rewards associated with joining an early-stage software company
+
+What success looks like in this role
+Success in this role is closely-tied to and inseparable from the company’s overall success. Success in this role means:
+
+Higher utilization of our software by both our clients and our client’s partners who also have accounts on our platform. This utilization can also be in the form of automation of cumbersome service-based tasks currently being completed by the customer success team
+Renewals and expansion from current clients. Our top company goal is to provide enough value to clients that they expand the use of our software nationally or internationally thereby increasing the duration and value of their contracts with our company
+Skills required to succeed in this role*
+
+Javascript and UI knowledge with a strong understanding of:
+
+Front-end Frameworks: We use Vue, but any JavaScript framework experience is okay
+NPM-based workflow
+UI/UX and responsive design o CSS rules
+
+Web Performance and how different technology usage affects page load speed and time to interaction
+Iterative design process that integrates with development workflow
+Wireframe/mockup/protype process: balsamiq, sketch, build it yourself, we want to hear how you do things
+Additional Skills:
+
+Photoshop/Illustrator or similar experience. Do you have a design portfolio?
+Webpack configuration experience: have you set up webpack before?
+Test Writing: We use jest but any testing experience is welcome
+
+Please reach out to mike@relevize.io with sample work or relevant experience
+",

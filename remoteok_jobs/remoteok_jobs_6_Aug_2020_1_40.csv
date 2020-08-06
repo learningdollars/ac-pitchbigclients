@@ -1,0 +1,139 @@
+posted_date,skills,job_name,company_name,description,ld_link
+2020-08-05 19:50:47-07:00,"['Wordpress', 'Full Stack', 'Dev', 'Digital Nomad', 'Angular', 'Bash', 'C', 'CSS', 'DevOps', 'Docker', 'Excel', 'Git', 'Go', 'HTML', 'HTTP', 'Java', 'JavaScript', 'Laravel', 'MVC', 'PHP', 'REST', 'React', 'Ruby', 'SSIS', 'Sass', 'Webpack', 'Wordpress']",Full Stack Wordpress Developer Work For Brooklyn Agency Paid USD,Radish Lab,"We are looking for a full-time Full Stack Developer to help plan, design, and implement our large-scale development projects. You have experience building custom solutions using WordPress and understanding and writing frontend code. If you are a generalist when it comes to writing code and comfortable on any end of a tech stack, then you might be the perfect fit.
+We build digital experiences for organizations making the world a better place, clients like the International Rescue Committee, the American Cancer Society, and the Rainforest Alliance. We are a small, flexible, and collaborative team excited about tackling challenging projects.
+Location Must be in the Americas. We are particularly interested in candidates in Argentina. Our lead developer is based in Buenos Aires.
+Language  Must speak English fluently.
+About You
+You're a creative problem solver who can balance the technical and business value of the task at hand.
+You don’t do things just because they were always done that way. 
+You're not afraid of asking questions or admitting when you don't have the answer.
+You're experienced at managing multiple projects, concurrent deadlines, and working under pressure.
+You're curious and a quick learner; eager to learn new methods and technologies
+You're an excellent communicator in both verbal and written English (required)
+You're quick to jump on a video chat to work a problem out quickly instead of relying on Slack or email.
+You've got a good sense of humor.
+You're interested in social change and engaged with causes.
+Responsibilities 
+Write backend application code for WordPress-based and other types of websites.
+Assist with and direct frontend development as necessary, particularly in regards to the intersection between front and back end application design.
+Managing Node dependencies and other libraries related to projects, as well as the configuration of those libraries.
+Assist with light DevOps operations, such as code deployments and build script configurations.
+Complete ongoing maintenance tasks within regular sprint cycles, and direct the testing and documentation around those tasks.
+Offer feedback to designers and product stakeholders during the early strategic phases of projects.
+Must Haves
+5+ years of backend development using languages like PHP (especially) and Ruby
+3+ years of front-end development, using HTML, CSS/SASS, JavaScript and at least one modern JS framework like React, Vue, and Angular
+Ability to build and test web applications end-to-end, and have a thorough understanding of HTTP requests, RESTful APIs, authorization systems and comfort with using third-party solutions to solve problems.
+Excellent creative problem-solving skills and great patience in dealing with technical problems
+Experience and familiarity with the MVC architectural pattern (Laravel, CakePHP, CodeIgniter, etc.)
+Comfort with the terminal, running command-line based utilities, knowledge of shell scripting (e.g. Bash)
+Nice to Have
+Experience with
+writing frontend build scripts, for example using Webpack
+Container-based applications, particularly using Docker
+Background in working with fast-paced environments like a creative agency
+A dog or cat you like to share pictures of with the team
+How to Apply Please upload an awesome (seriously) cover letter and your resume. And include links to your Github account in the introduction space.",https://www.learningdollars.com/client/select_engineers/?crid=2403
+2020-08-05 15:01:48-07:00,"['Full Stack', 'Dev', 'Web Dev', 'Digital Nomad', '.NET', 'ARM', 'C', 'CSS', 'DevOps', 'Docker', 'Git', 'Go', 'GraphQL', 'Kubernetes', 'Marketplaces', 'MySQL', 'Postgres', 'React', 'Ruby', 'Ruby on rails', 'SQL', 'UX Design']",Full Stack Web Developer,Sunrise Brands,"You'll be collaborating with the lead developer of a bespoke e-commerce platform. Working to both support and extend the platform's capabilities, you will implement new backend features to help Sunrise Brands meet its goals in wholesale, retail, and online marketplaces. You will also participate in the design, architecture, and delivery of new customer facing features to provide a great web-based UX.
+As this will be a team of two, you should be comfortable with a high degree of self-sufficiency. Debugging, problem solving, clear communication, and an eye for detail are a must. With limited access to UI/UX design resources, you should also have an eye for user interfaces, or at least an ability to follow/extend existing design patterns.
+Proficiency in Ruby on Rails, React, GraphQL, and e-commerce concepts are required. 
+Daily responsibilities will include:
+Bug fixes, writing tests
+Building tools/features to support our internal users (customer service, marketing, accounting, and warehouse staff)
+Integrating with third-party services where necessary to fulfill business requirements
+Extending/optimizing the GraphQL schema as needed
+Working on the frontend to maintain a performant site and improve the customer shopping experience via new features and optimizations to the existing UX
+Requirements:
+Ruby on Rails, GraphQL (Apollo/Relay), React, CSS-in-JS
+Experience with relational databases including MySQL and PostgreSQL 
+Experience with background job processing and a variety of caching strategies 
+Experience with Git and GitHub
+Experience with e-commerce platforms/concepts (credit card processing, order fulfillment, inventory management, etc).
+Experience with consuming and integrating third party APIs
+At least a basic familiarity of installing and working with Docker.
+Desired skills:
+Experience with CI/CD and DevOps
+Experience with EC2, S3, and CloudFront
+Experience with cloud orchestration (docker swarm/kubernetes)",https://www.learningdollars.com/client/select_engineers/?crid=2404
+2020-08-05 13:41:59-07:00,"['React Native', 'React', 'Dev', 'Javascript', 'C', 'Excel', 'Go', 'Java', 'Lean', 'Objective C', 'React', 'React native', 'Swift']",Senior React Native Developer,Mahisoft,"Work as part of a small team to build React Native iOS / Android applications for FullStack's clients. Architect, build and maintain excellent React Native applications with clean code. Implement pixel perfect UI's that match designs. Implement clean, modern, smooth animations and transitions that provide an excellent user experience. Integrate third-party API's. Write unit and integration tests. Release applications to IOS and Google Play stores. Work with native modules when required.
+Requirements
+4+ years of professional experience working with React Native.
+6+ years of professional software development experience.
+Experience working with Swift, Objective C, and Java a plus but not required.
+Meaningful experience working on large, complex systems.",https://www.learningdollars.com/client/select_engineers/?crid=2405
+2020-08-05 09:17:44-07:00,"['Dev', 'Ruby', 'Senior', 'Ruby', 'AWS', 'Agile', 'C', 'DeFi', 'Git', 'Go', 'HTTP', 'Postgres', 'REST', 'Ruby', 'Ruby on rails', 'SQL', 'Scala']",Senior Ruby On Rails Developer,Beachy,"Beachy is a B2B tech startup that helps beach resorts and beachside vendors manage and grow their business by providing a modern mobile and web-based booking platform and point-of-sale. Beachy is used in hundreds of locations across Florida, Alabama, the East coast, and Turks and Caicos Islands. We have multiple products that serve different user personas (beach attendants, beach managers, etc)  in beachside commerce. We are an early stage company tripling growth year over year with no desire to slow down. 
+We are seeking a highly talented, senior Ruby on Rails developer with strong infrastructure experience to join our ranks to help us build, maintain and scale an amazing product. As a member of the Beachy engineering team, you will make a huge impact on day one and play a critical part in solving some big technical challenges as we get ready to scale and help iterate our products forward. You’ll work alongside an agile team of 5 other web and mobile engineers, a QA, a designer, and a product manager. 
+Here’s what we’d like to see in your background and experience.
+6+ years engineering experience building scalable user-facing web applications and APIs for mobile apps with the Ruby on Rails framework.
+3+ years experience with deploying, scaling, and monitoring services in AWS - EC2, RDS, Cloudfront, Redshift, S3, etc.
+A consistent dedication to writing unit and integration tests around your code.
+Experience with PostgreSQL a big plus.
+Previous work experience at a tech startup. 
+A commitment to iterative development and starting by building the simplest thing that can possibly work. 
+Bonus points for experience in the travel and hospitality industry. 
+And here’s what you can expect to do in this role. 
+Improve our B2B platform for beach resorts by iterating our internal API for our mobile and web apps and improving our core backend architecture. 
+Push the team to continue to reach for 100% test coverage.
+Measure and improve the performance of the software you build as it’s needed.
+Rise to the challenge of integrating with several point of sale products in the travel and hospitality industry. 
+Coach and mentor other engineers who are less skilled/experienced with backend development.
+Look forward to coming to work and enjoy collaborating with your manager and teammates.
+You can check out our tech stack at https://stackshare.io/beachy/beachy. We have engineers in Nashville, Pennsylvania, New York, Canada, and Poland. We also have sales, operations, and product staff in Florida and Texas. We are definitely remote-friendly. 
+By providing our customers a product that significantly improves the guest experience, our mission is to give every beachgoer the vacation of a lifetime every time. Our founders have solid experience in technology, entrepreneurship, and beachside businesses. Our staff count is less than 20 people, and this role has major potential to make a big impact on the growth and success of the business. If you’re confident in your skills, but humble in your conversations, hungry to take on the backend development at a young startup, and smart when it comes to people and truly being a team player, then this is the perfect role for you.
+Interested in applying? We hope so, so send your resume and anything else relevant (GitHub, your website, etc) and we'll get back to you very shortly. 
+This is a full-time role with benefits. ",https://www.learningdollars.com/client/select_engineers/?crid=2406
+2020-08-05 09:14:40-07:00,"['Dev', 'Mobile', 'Engineer', 'Digital Nomad', 'C', 'Continuous Integration', 'Git', 'Go', 'Lean', 'REST', 'React', 'React native', 'SQL', 'SQLite', 'Security', 'UI Design']",Mobile Software Engineer,PestRoutes,"About Field Service Holdings LLC
+We are a remarkable company in remarkable times. Our business includes PestRoutes software and Lobster Marketing, together comprising Field Service Holdings. PestRoutes® is a SaaS platform providing end-to-end office management software for field service providers in markets such as pest, pool, and lawn. Lobster Marketing adds market-facing web sites, buy online capability, dashboarding, and digital marketing services. PestRoutes was founded in 2012, and Forbes just named us on their list of ""2020 Best Start-up Employers"" based on employee enthusiasm, fast-growth, and financial strength. In January 2020, we joined the portfolio of Gryphon Investors and have outstanding financial support.
+Development @ PestRoutes
+On the PestRoutes software development team, code is released daily to tens of thousands of field service staff around the country (our customers' service about 4% of homes in America)—the code you write in the morning could be deployed to thousands of users the same day. Our office software runs on a LAMP stack deployed across self-hosted cloud servers running the same codebase, and our app uses React Native with a continuous integration solution for a clean, build-less release process.
+There are lots of differently shaped problems to take on at PestRoutes, and we are looking for engineers who like challenges, are good problem solvers, and can build on an existing framework to optimize for scale. Customer growth presents interesting challenges—you can find something that interests you, with the opportunity to pioneer and take ownership of key features while you grow with the company. Whether you're interested in front-end user experience, mobile app development, query optimization, dev-ops, application security, or something else entirely, you'll be able to find your place.
+The Mobile Software Engineer position is a Direct-Hire position.
+Responsibilities
+Implement complex and core functionality within our mobile app related to scheduling, payments, billing, route, internal/external APIs, etc.
+Own our mobile department and find ways to improve existing systems and processes
+Help mentor and coach junior members of our development team
+Work with the latest technologies and tools to solve the oldest problems which affect our customers 
+Qualifications
+Bachelor’s degree in Computer Science or related field
+At least 3 years' expert level React Native experience
+At least 3 years' expert level experience with mobile apps that have offline capabilities
+At least a year of experience with iOS and Android native development. We use native code for a few features integrated with React Native app
+At least 3 years' experience implementing complex and core features into a mature codebase
+Strong knowledge of mobile UI design principles, patterns, and best practices
+Familiarity with RESTful APIs to connect to back-end service
+Proven ability to track down, solve, and release solutions to bugs and issues
+Experience with version control and deployment strategies
+Experience with Realm or SQLite databases
+High attention to detail and ability to take responsibility for core changes
+Passion for development and high desire to release code",https://www.learningdollars.com/client/select_engineers/?crid=2407
+2020-08-05 07:00:07-07:00,"['Dev', 'Engineer', 'Backend', 'Digital Nomad', 'C', 'Flutter', 'Go', 'Microservices', 'REST', 'React', 'Redux']",Backend Software Engineer,Avenue,"Are you interested in creating software that must perform transactions within milliseconds, with high availability, that must handle hundreds of thousands of users and all that with ease to use and without miss a dime? If your answer is yes, you should join us.
+As a Backend Software Engineering you will:
+Design and implement new features for our platform
+Improve existent design and functionality
+Debug and Fix issues
+Automate existing process and routines
+Our backend is based on open source tools and runs as a set of Golang based MicroServices. We're using RabbitMQ and Grpc for communication. This backend supports our Web App (a React/Redux & JS SPA) and our Mobile App (Flutter engine using WebViews to render our Web App, soon to be fully native).
+Basic Qualifications
+Knowledge of CS fundamentals including data structures, algorithm design
+Proficiency in Go
+Basic knowledge of messaging and distributed computing",https://www.learningdollars.com/client/select_engineers/?crid=2408
+2020-08-05 06:06:22-07:00,"['React', 'Dev', 'Javascript', 'Php', '.NET', 'C', 'CSS', 'HTML', 'Java', 'JavaScript', 'MySQL', 'PHP', 'React', 'SQL']",PHP React Fullstack Developer For Edtech Company,MobyMax,"We are looking for talented Full Stack PHP developers living in Eastern Europe who want to join our engineering team in building the future of education technology.
+The position requires a developer with experience and expertise building modern web applications and mobile web apps using the latest back-end and front-end technology.  At Moby we are use a LAMP based tech stack to support over 22 million users (roughly half the schools in America use our software) giving you the opportunity to solve a variety of challenges at scale. 
+The position is remote allowing you to work from the comfort of your home, and requires the ability to read, write and speak in English.  Our developers work 9am - 6pm EET.
+We use Slack for most communication including voice calls so you must have conversational English skills.  
+Skills & Requirements
+Work for yourself and not for an outsourcing company
+Strong knowledge of PHP (3+ years experience)
+Strong knowledge of Javascript, HTML, CSS and related tools/packages (3+ years experience)
+Strong knowledge of MySQL (3+ years experience)
+Any React experience is a big plus
+Strong English skills (written and verbal).
+Working setup
+Work from home
+A computer that is not older than 3 years
+High speed internet
+Clear microphone / headset.
+Hours
+Willing to work 45 hours per week
+Work 9am to 6pm in the Eastern European Timezone (EET)",https://www.learningdollars.com/client/select_engineers/?crid=2409
+2020-08-05 06:04:18-07:00,"['React', 'Dev', 'Javascript', 'Php', '.NET', 'C', 'CSS', 'HTML', 'Java', 'JavaScript', 'MySQL', 'PHP', 'React', 'SQL']",PHP React Fullstack Developer,MobyMax,"\nWe are looking for talented Full Stack PHP developers living in Eastern Europe who want to join our engineering team in building the future of education technology.\n\nThe position requires a developer with experience and expertise building modern web applications and mobile web apps using the latest back-end and front-end technology.  At Moby we are use a LAMP based tech stack to support over 22 million users (roughly half the schools in America use our software) giving you the opportunity to solve a variety of challenges at scale. \n\nThe position is remote allowing you to work from the comfort of your home, and requires the ability to read, write and speak in English.  Our developers work 9am - 6pm EET.\n\nWe use Slack for most communication including voice calls so you must have conversational English skills.\n \n\nSkills & Requirements\n\n\n* Work for yourself and not for an outsourcing company\n\n* Strong knowledge of PHP (3+ years experience)\n\n* Strong knowledge of Javascript, HTML, CSS and related tools/packages (3+ years experience)\n\n* Strong knowledge of MySQL (3+ years experience)\n\n* Any React experience is a big plus\n\n* Strong English skills (written and verbal).\n\n\n\n\nWorking setup\n\n\n* Work from home\n\n* A computer that is not older than 3 years\n\n* High speed internet\n\n* Clear microphone / headset.\n\n\n\n\nHours\n\n\n* Willing to work 45 hours per week\n\n* Work 9am to 6pm in the Eastern European Timezone (EET)\n\n\n",Not Found

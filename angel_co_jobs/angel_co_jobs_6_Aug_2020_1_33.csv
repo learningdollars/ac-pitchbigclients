@@ -1,0 +1,250 @@
+skills,job_name,job_type,experience,company_name,industry,company_size,location,hiring_contact,website,description,ld_link
+"['Python', 'Javascript', 'Machine Learning', 'Node.js', 'Blockchain', 'Progressive Web Applications', 'Serverless']",Full-Stack Engineer - Inclusive Social Commerce PWA,Contract,1+ years,Lips,"['Social Media', 'Women-Focused', 'Sex Industry']",1-10 people,San Diego • Remote,"Annie Brown, Founder",http://lipszine.com,"Lips is looking for a full-stack engineer to build the majority of our front and backend of a progressive web app. The ideal candidate is dedicated to building a more inclusive internet and has some familiarity with AI/ML and Blockchain technologies. 
+This is a paid position, with possible equity and leadership position opportunities. We are based in San Diego, CA but are a distributed team. This is a remote position.
+Primary Languages:
+
+Node.js
+Javascript
+Python
+
+Note: This is a progressive web app! Prior experience with PWAs is required. 
+Key skills/features needed: 
+
+Encryption (Cryptographic Login - preferably built on public blockchain - our blockchain advisor can work with you on this) 
+Foundation of Code is Machine Learning Friendly (we use this to moderate) 
+Progressive Web App https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/ 
+Foundation of Code is Blockchain Friendly - Java, Node.js (we will be using a public blockchain TBD, all posts will be automatically uploaded to the blockchain to protect identity - again we will have a blockchain advisor helping with this) 
+Admin Web module
+API Development
+Deployment and Servers setup in Microsoft Azure, IBM or Serverless
+
+Lips offers tools for creators to promote, grow and sell their products. 
+
+Analytics, Insights Dashboard for SaaS customers
+Animations for customizability features such as drag and drop, similar to Plann App (https://www.plannthat.com)
+
+Integrations:
+
+Shopify for automatic setup of marketplace 
+Third Party Payment for Secure Transactions - Segpay, Paxum, CC Bill, Epoch
+Cryptocurrency payments through intimate.io 
+Firebase for Analytics
+Branch for deep linking on sharing
+ZenDesk for Customer Support
+Emails with YNOT Mail 
+
+Women, BIPOC, LGBTQIA candidates encouraged to apply.
+",https://www.learningdollars.com/client/select_engineers/?crid=1809
+"['Python', 'Javascript', 'Software Architecture', 'Databases', 'API', 'REST APIs', 'TypeScript', 'Algorithms & Data Structures']",Backend Engineer,Full-time,3+ years,Pngme,"['Fin Tech', 'Emerging Markets', 'B2B · SaaS · Mobile · Artificial Intelligence / Machine Learning', 'Financial Services', 'Big Data', 'Finance Technology', 'Blockchain / Cryptocurrency']",11-50 people,San Francisco • Remote,"Brendan Playford, CEO • 2 years",http://pngme.com,"We empower our machine learning and data engineers to build better data processing pipelines, and data models by helping them access scalable backend infrastructure to load structured and labelled data. We also provide the tools necessary for our customers and developers to access financial data through a flexible mobile development framework and unified data API. Our financial data platform allows our customers to extract valuable financial insights in a transparent and comprehensive manner.
+As Backend Engineer at Pngme, you’ll work with our engineering team to learn about different machine learning algorithms and ways to incorporate them into our core architecture and data pipelines. On the back end, you’ll work with the founding team to build and scale components of our public API and data storage architecture.
+You’ll also have the opportunity to work with the engineering team to tackle the challenge of developing high performance, robust and scalable systems.
+Requirements
+
+BSc+ in Computer Science or similar
+3+ years of programming experience
+Proven experience in designing and delivering complex API architecture
+Experience as a key contributor, and product owner on large scale production systems
+Experience with GraphQL
+Strong experience in Javascript (TypeScript) and its ecosystem
+Strong experience in Serverless (Lambda), DynamoDB, and AWS environments
+Passionate about creating maintainable and performant software
+Strong desire to learn and solve problems that delivers financial impact
+
+What we consider an asset:
+
+Experience writing API documentation
+Experience with databases such as Elasticsearch
+Experience with microservice architecture
+Familiarity with data analysis or machine learning
+Experience with Docker and Kubernetes
+Comfortable with math (linear algebra, calculus)
+
+Benefits
+
+Entrepreneurial and inclusive culture
+Culture development program
+Excellent health, dental, and vision coverage
+Unlimited vacation
+Flexible remote work culture
+
+",https://www.learningdollars.com/client/select_engineers/?crid=2402
+"['Web Development', 'Mobile Development', 'API', 'React.js', 'React Native', 'Full-Stack Web Development (Node/Redux/React)']",App Developer (Full-Stack & React Native),Contract,1+ years,ROLO,"['Mobile Application', 'Website']",1-10 people,New York City • United States • San Francisco • Remote,"Matthew Deerr, Founder",https://joinrolo.com,"We would like an experienced app developer to code our beta for iOS/Android. We are in need of a website as well that would share some of the same features as the mobile beta.
+Ideally, we could form a long lasting relationship and this person could join the team full time and ride the wave with us as we grow. If being brought on to join the team full time, we can discuss equity compensation.
+Hourly rate between $25-50 depending on fit, experience, skill level.
+The app will be focused on helping creative freelancers display their portfolio, build their network, and find jobs. Additionally, it will connect creative agencies and brands with local creative freelancer talent to complete the work they need.
+",https://www.learningdollars.com/client/select_engineers/?crid=511
+"['Python', 'Javascript', 'E-Commerce', 'SQL', 'Linux', 'English', 'SQLAlchemy', 'Full Stack Development', 'Flask', 'Agile', 'Image Editing', 'HTML5 & CSS3', 'REST APIs', 'TypeScript', 'Design Patterns', 'Automation testing using Selenium', 'React.js', 'Git flow', 'Test-Driven Development (TDD)', 'NextJs']","Full Stack Developer with React, Typescript and Python",Contract,2+ years,WeGetFinancing,"['Financial Services', 'E-Commerce', 'Payments', 'Consumer Lending', 'Fin Tech']",1-10 people,New Jersey • Remote,"Alberto Montañola Lacort, CTO • 5 months",https://wegetfinancing.com,"What you will do
+As part of the WeGetFinancing development team, you will be responsible for designing, implementing, and maintaining different components of our platform.
+You will be working side to side with the CTO, you will participate in biweekly sprints, releasing quality code using test-driven development practices, and writing good technical documentation.
+You will work with a modern stack (https://stackshare.io/wegetfinancing/wegetfinancing) using innovative frameworks using Python 3 and React, being always on the edge of the technology.
+If you are a very passionate software engineer that follows engineering best practices and in search of constant growth, this offer is for you, giving you day-to-day challenges and learning opportunities.
+What you need to bring
+
++2 years of experience building innovative websites and/or mobile applications.
++2 years of experience with Python, Typescript and React.
+HTML and CSS knowledge.
+Experience with TDD (test-driven development), Unit Testing, Q&A.
+Knowledge of engineering patterns such as DRY, KISS, SOLID, etc.
+University degree in Computer Science or related.
+Fluency (both written and spoken) in English.
+
+Bonus points if
+
+Previous experience with Agile methodology
+Knowledge of Git and git-flow
+Knowledge of Selenium or similar testing frameworks.
+Experience with eCommerce applications.
+Experience developing microservices for the cloud (with AWS or similar).
+Portfolio of previous works and any related links to GitHub/BitBucket public repositories with relevant projects.
+
+",
+"['Machine Learning', 'Backend Development', 'Frontend Development', 'REST APIs', 'Music Information Retrieval', 'React.js', 'Python/Django/Flask']",Full Stack Engineer,Contract,5+ years,Unbias,"['Machine Learning', 'Algorithms', 'Artificial Intelligence']",1-10 people,Los Angeles • Remote,"Mohamed Kamal, Founder",http://www.unbias.co,"We are looking for a full-stack developer to engineer the front-end and the backend code for our web application. This is a short-term contract role, with potentially rolling in to full-time. Candidate must dedicate at least 20 hrs/week for this project. 
+No software development agencies.
+Our AI application assesses an artist's audio files and estimates if they are going to trend or chart in the next 6 - 12 months, predictions are delivered in real-time. This means artists can be vetted quicker and connect with established labels, fast.
+We spent the past year researching and fine-tuning our deep learning models. It is trained on one of the most extensive datasets on music. The UX/UI design is complete and researched.
+We rely heavily on the following tools and technologies below – but you don't need to have prior experience in all of them. We don't mind what languages or frameworks you've used before (in fact, different experiences bring different perspectives to the table) - we’re just keen to know that you're willing to break things, fix things, learn fast and carry on creating. 
+Flask for backend development
+React for frontend development
+D3.js, Plotly or Bokeh for charting
+PostgreSQL for persistent data storage
+Kafka for our asynchronous message queue
+Google Cloud for our infrastructure
+Nice to have
+Experience with Music Information Retrival technologies
+Experience working with machine learning projects in production
+",https://www.learningdollars.com/client/select_engineers/?crid=1007
+"['Game Design', 'Educational Technologies', 'Communication Skills', 'Mobile Games', 'Game Development']",Game Developer,Contract,1+ years,Adam Wa Mishmish,"['Language Learning', 'K-12 Education', 'Educational Games', 'Edtech']",1-10 people,Cambridge • Remote,"Lina Adnani, Founder",https://www.adamwamishmish.com,"Game Developer Required!
+Game developer with practical experience in game development is required to build 2D games as part of a mobile application built with React Native technology. The app works mainly on iOS and Android based tablets and the games will be part of the app.
+The developer will build a series of 40 or more games to be plugged into our mobile app, using any suitable game development tool/framework as long as it can be integrated with our mobile app.
+We are open for full time hiring or freelancing job, qualified candidates please submit your resumes to this email: jobs@adamwamishmish.com
+",Not Found
+"['Node.js', 'DevOps', 'REST APIs']",Senior Backend Developer,Contract,4+ years,Red Patch Technologies,"['Artificial Intelligence', 'Internet of Things', 'Software Engineering', 'Mobile Application']",1-10 people,Toronto • Remote,"Chris Brulak, Founder",https://www.linkedin.com/company/red-patch-technologies,"Job Description
+We are looking for a Node.js Developer responsible for managing the interchange of data between the server and the users. Your primary focus will be the development of all server-side logic, definition and maintenance of the central database, and ensuring high performance and responsiveness to requests from the front-end. You will also be responsible for integrating the front-end elements built by your co-workers into the application. Therefore, a basic understanding of front-end technologies is necessary as well.
+Responsibilities
+
+    Integration of user-facing elements developed by front-end developers with server side logic
+    Writing reusable, testable, and efficient code
+    Design and implementation of low-latency, high-availability, and performant applications
+    Implementation of security and data protection
+    Integration of data storage solutions, postgres
+
+Skills And Qualifications
+
+    Strong proficiency with JavaScript 
+    Knowledge of Node.js and frameworks available for it Express,etc. 
+    Understanding the nature of asynchronous programming and its quirks and workarounds
+    Basic understanding of front-end technologies, such as HTML5, and CSS3
+    User authentication and authorization between multiple systems, servers, and environments
+    Integration of multiple data sources and databases into one system
+    Understanding fundamental design principles behind a scalable application
+    Creating database schemas that represent and support business processes
+    Implementing automated testing platforms and unit tests
+    Proficient understanding of code versioning tools, such as Git
+
+",https://www.learningdollars.com/client/select_engineers/?crid=1811
+"['React.js', 'React Native', 'Redux', 'redux-saga']",Frontend Developer,Contract,Not mentioned,Jenzy,"['Mobile', 'Retail', 'Mobile Commerce', 'Retail Technology', 'Specialty Retail', 'Ecommerce', 'Mobile Application']",1-10 people,Philadelphia • Remote,"Eve Ackerley, Cofounder and COO • 3 years",http://www.jenzy.com,"About Role:
+We're seeking a frontend developer to join our growing team. You will work closely with our backend engineer, designer, product manager and founders to execute on our technical roadmap. You’ll be expected to hit the ground running to build new app features, tackle bugs, and ultimately create the easiest mobile shopping experience for parents.
+You will build features, review code, write tests, maintain infrastructure, and help define best practices. Our entire stack is Javascript. Our mobile app is built in React Native and our backend is written in Node on top of AWS Lambdas. Since we’re built on AWS, a familiarity with their product suite is a major plus. 
+Required Skills
+
+React Native
+React
+Redux
+Redux Saga
+
+About You:
+You are an energetic, passionate leader who’s savvy about the latest front-end and React technologies and have years of experience to back it up. You can work independently on your own and hit the deadlines you set forth. You have excellent communication skills and can work with developers all the way up to the founder level. 
+We’re looking for someone to start off as a contractor and then become a full-time employee. We are looking for someone to grow with and become an important individual contributor to our business. We are a Philly-based company and ideally someone who could come to the office regularly is great but we’re open to remote positions as well. +10 bonus points for Gryffindor if you have kids!
+To Apply:
+
+Please email your resume to eve@jenzy.com with the subject line, “Applying for Jenzy Frontend Developer.” If you have a portfolio or sample work such as apps or websites you've created in the past, please include links to those as well.
+YOU MUST BE BASED IN THE U.S.
+PLEASE NO RECRUITERS
+
+Thanks and look forward to connecting!
+Eve, Jenzy Co-Founder
+",https://www.learningdollars.com/client/select_engineers/?crid=1530
+"['Mobile Development', 'Flutter', 'Flutter Development', 'Flutter App Development']",Google Flutter Developer,Contract,3+ years,Jackrabbit Mobile,"['Mobile', 'Design', 'iOS', 'Android']",1-10 people,Austin • Remote,"Lauren Trahan, Office Manager, HR, Recruitment • 3 years",http://jackrabbitmobile.com,"Hi! We appreciate you reading our job post. Jackrabbit Mobile is an Austin-based technology consultancy founded in 2012. We partner with our clients to accelerate product-to-market solutions by leveraging our product, user experience, and software expertise.
+Location: Our team is fully remote. Looking for someone in Pacific, Central, or Eastern Time Zones. 
+Engagement: We are looking to work with a contract part-time flutter developer for a minimum 3 month term.
+Start date: Two weeks.
+Opportunity: Mobile is the core of our expertise at Jackrabbit. As a Google Flutter Developer, you will be responsible for the full development process from application development and technical architecture to code review and test build distribution within the agile development process framework. You will work within our cross-functional teams to communicate development progress and capabilities with clients to deliver innovative digital products.
+Compensation: Hourly rate negotiable based on experience.
+KEY RESPONSIBILITIES
+
+Google Flutter application development
+Technical architecture
+Debugging
+Application testing
+Code review
+Test build distribution
+Agile process participation
+Regular reports and updates
+Client communication
+
+QUALIFICATIONS
+
+3-6 years experience in the following:
+
+
+Architecting a new mobile application 
+Working in cross-functional teams, including design
+Developing with agile & scrum processes 
+Modern tooling: Slack, GitHub, Trello, JIRA 
+Implementing push notifications, analytics, crash reporting, Facebook SDK, and local data storage
+Familiar with Google’s Flutter Architecture Components
+
+Thorough knowledge of:
+
+
+Building an app from the ground up
+Networking and API communication
+Architecture, MVP and MVVM
+Google Flutter and their complete UI Toolkit (minimum one year experience)
+
+Capable of working unsupervised, self-starter
+
+A GOOD FIT WOULD BE SOMEONE WHO IS
+Professional - interacts with many different levels of people, clients, and team members 
+Organized - handles lots of information keeps projects and teams on-track and on-time 
+Modern - familiar with the latest developments in technology and development tools
+Excited - work with awesome people & tech, you should love it as much as we do!
+",https://www.learningdollars.com/client/select_engineers/?crid=1747
+"['PHP', 'Javascript', 'Ruby on Rails', 'React.js']",Software Developer,Contract,4+ years,Gramercy Tech,"['Social Games', 'Web Design', 'Design', 'Mobile Games', 'Ticketing', 'Apps', 'Technology', 'Web Development', 'Events Services', 'Live Entertainment', 'Graphic Design']",11-50 people,New York City • Remote,"Lucy Disanto, Freelance Recruiter • 5 years",http://gramercytech.com,"Gramercy Tech is looking for a well rounded software developer to join our team!
+At Gramercy, we work on a wide range of cutting edge technologies, from facial recognition and AR, to digital projection games and NFC ticketing systems. Most of our projects are created for live events, so timelines tend to be short and developers are able to work on many varied projects throughout the year.
+Of course, live events are not happening at the moment, but we are still busy working on remote conferencing tools! Our entire team is currently remote, but the office is based in Manhattan, so you should be in the region if you are interested in being in an office once the world re-opens.
+The ideal candidate will have an extensive background in software development, and will be looking to join a creative and close-knit team.
+Requirements and Qualifications:
+
+4+ years working in software development broadly
+2+ years working in front end experience, (ideally specifically with React)
+Familiarity with at least one backend software development language (Ruby on Rails, or PHP)
+Understanding of relational database systems and experience with MySQL or PostegreSQL)
+Proficient in working with command line tools-experience developing in OSX or Linux
+Interested in working on interactive technologies
+
+",https://www.learningdollars.com/client/select_engineers/?crid=2389
+"['Python', 'Javascript', 'MongoDB', 'Node.js', 'Coffeescript', 'Meteor']",Full Stack UX (Javascript) Engineer,Contract,3+ years,CoWorkr,"['Business Intelligence', 'Predictive Analytics', 'Commercial Real Estate']",1-10 people,Reno • Traverse City • Remote,"Elizabeth Redmond, Founder",https://coworkr.co,"CoWorkr is a leading Workplace Analytics company using sensors to generate real-time data on workplace occupancy and rich analytics for real estate strategists. We build our own hardware and software to offer a complete end-to-end service to global customers. Our technology is now helping major corporations with their return to workplace strategy. We provide real-time data on safe distancing measures, kiosks to help staff find available and unused seats/rooms, analytics for planning, and daily use maps for janitorial staff. Since inception in 2014, our tech has been deployed in 200+ unique workplaces globally including the offices of LinkedIn, Salesforce, HSBC, Henkel, WSP, and Paychex. CoWorkr has collected over 5M days of data and is distributed by CBRE, JLL, Haworth, iOffice, and more.
+Our technology includes:
+Hardware-enabled software (Bluetooth Sensors that stream data to a Cloud)
+Meteor- and Javascript- based web app that visualizes real-time and historical data
+API for integrating data with partner apps
+We are seeking a Fullstack Engineer with a focus on frontend and UX. You will be involved in the entire software development process to ensure quality and value throughout the entire product but expected to have experience in building beautiful frontends. In detail this will include building dashboards that utilize real-time and historical sensor data as well as other software dev tasks. You will be working on a small team under our CoFounder and CTO.
+What You’ll Do:
+Codesign and Implement new front end features
+Maintain App through testing/ bug fixing
+Maintain and implement new data sources into the app’s analytics
+Perform needed technical and nontechnical tasks throughout the entire platform
+What You Bring:
+3+ years in a Software Development and/or Fullstack Engineering role
+Minimum Bachelor’s degree in Computer Science (or another STEM discipline) 
+Expert with Javascript, CoffeeScript, MongoDB, RestAPI, HTML, CSS, Meteor, and Python
+Ability to self-manage and be autonomous among a distributed team in an agile environment
+Fluent in english and authorized to work in the US
+What We Bring: 
+Startup CultureFlexible work hours
+Work-from-Home
+Medical, Dental, Vision
+Performance based option grants
+Flexible PTO
+",https://www.learningdollars.com/client/select_engineers/?crid=2390
